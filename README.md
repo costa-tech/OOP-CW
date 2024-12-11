@@ -1,117 +1,78 @@
-Real-Time Ticketing System
+# README
 
-Overview
+## Introduction
+This Real-Time Ticketing System simulates a ticket distribution mechanism where tickets are added to a pool by a vendor and retrieved by customers. It is designed with the following features:
+- Configurable parameters such as the total number of tickets, ticket release rate, and customer retrieval rate.
+- Logging system to record activities.
+- Persistent storage of configurations in both JSON and text formats.
 
-The Real-Time Ticketing System is a Java-based simulation designed to manage ticket distribution and customer retrieval in real time. It features configurable parameters for ticket release and retrieval rates, ticket pool capacity, and total tickets. The system provides a menu-driven interface for configuration, logging, and monitoring.
+The system provides a real-time view of ticket availability, processed tickets, and system status.
 
-Features
+## Setup Instructions
 
-Configuration Management: Save and load system configurations in JSON and text formats.
+### Prerequisites
+To run this application, ensure the following requirements are met:
+1. **Java Development Kit (JDK)**
+   - Version: 8 or higher
+2. **External Libraries**
+   - Gson library (to handle JSON operations). Download and include the Gson library in your project.
 
-Real-Time Simulation: Simulate ticket release and retrieval with adjustable rates.
+### Steps to Build and Run the Application
+1. **Clone or Download the Project**
+   - Clone the repository or download the source code as a ZIP file and extract it.
 
-Logging: Log all significant events, including configuration changes, ticket transactions, and system status.
+2. **Set Up the Environment**
+   - Ensure that the Gson library is included in the classpath. For example:
+     - Add the Gson JAR file to your IDE's project library.
+     - Use the command: `javac -cp .:gson-<version>.jar RealTimeTicketingSystem.java` (on Linux/Mac) or `javac -cp .;gson-<version>.jar RealTimeTicketingSystem.java` (on Windows).
 
-Status Monitoring: Display the current status of the ticket pool and processed tickets.
+3. **Compile the Application**
+   - Open a terminal or command prompt.
+   - Navigate to the directory containing the source files.
+   - Run the command:
+     ```
+     javac -cp gson-<version>.jar *.java
+     ```
 
-Graceful Shutdown: Automatically save the configuration and terminate processes when the system shuts down.
+4. **Run the Application**
+   - Execute the program with:
+     ```
+     java -cp gson-<version>.jar;. RealTimeTicketingSystem
+     ```
 
-Components
+## Usage Instructions
 
-Configuration: Manages system parameters, file storage, and logging.
+### Configuring and Starting the System
+1. **Main Menu**
+   - Upon running the application, the main menu is displayed with the following options:
+     - `1. Configure System`: Configure and start the ticketing system.
+     - `2. Exit`: Exit the application.
 
-TicketPool: Represents the shared pool of tickets, with synchronized methods for adding and retrieving tickets.
+2. **Configuration Steps**
+   - If a saved configuration is found, the program will ask if you want to use it. Otherwise, input the following parameters:
+     - Total number of tickets.
+     - Maximum ticket pool capacity (must not exceed the total number of tickets).
+     - Ticket release rate (tickets per second).
+     - Customer retrieval rate (tickets per second).
 
-Vendor: Simulates the ticket release process.
+3. **Automatic Start**
+   - Once configured, the system starts automatically, with a vendor thread adding tickets to the pool and a customer thread retrieving tickets.
 
-Customer: Simulates ticket retrieval by customers.
+4. **Stop the System**
+   - Press `Enter` at any time to stop the simulation.
 
-RealTimeTicketingSystem: Main class that orchestrates the simulation and provides a user interface.
+### Logs and Configuration Files
+- **Log File** (`system_logs.txt`): Contains event logs, such as tickets being added, retrieved, and system status updates.
+- **Configuration Files**:
+  - `Configuration.json`: Stores the system configuration in JSON format.
+  - `settings.txt`: Stores a readable version of the system configuration.
 
-Prerequisites
+### Clearing Logs
+- Logs can be cleared by using the `clearLogs()` method in the `Configuration` class or manually deleting the `system_logs.txt` file.
 
-Java Development Kit (JDK) 8 or later
+### Reading Logs
+- Use the `readLogs()` method to retrieve and print log content in the console.
 
-Gson library for JSON handling (download from Maven)
+### Extending the System
+- Developers can add additional features or modify the existing system by extending classes such as `Customer`, `Vendor`, or adding new functionality to `RealTimeTicketingSystem`.
 
-Setup
-
-Clone the repository or download the source code.
-
-Add the Gson library to your classpath.
-
-Compile the Java files:
-
-javac -cp gson-<version>.jar *.java
-
-Run the main program:
-
-java -cp .:gson-<version>.jar RealTimeTicketingSystem
-
-Usage
-
-Main Menu
-
-Configure System:
-
-Enter parameters such as total tickets, pool capacity, ticket release rate, and customer retrieval rate.
-
-Choose to load an existing configuration if available.
-
-Starts the system simulation automatically after configuration.
-
-Exit:
-
-Terminates the program gracefully, saving the configuration and stopping all threads.
-
-Simulation
-
-Press Enter at any time during the simulation to stop the system.
-
-The simulation threads manage ticket release and retrieval independently while displaying the current status.
-
-Logs
-
-All significant events are logged in system_logs.txt.
-
-System logs are stored in system.log for debugging purposes.
-
-Files
-
-settings.txt: Stores the current configuration in a human-readable format.
-
-Configuration.json: Stores the configuration in JSON format.
-
-system_logs.txt: Contains event logs.
-
-system.log: Detailed logs for debugging.
-
-Extending the System
-
-Adding Features
-
-Implement new classes or modify existing ones to include additional functionality (e.g., dynamic rate adjustment).
-
-Update the Configuration class to handle new parameters.
-
-Improving Logging
-
-Enhance log messages to include more detailed context or use structured formats (e.g., JSON).
-
-Troubleshooting
-
-Issue: Log files are not created.
-
-Solution: Ensure the program has write permissions to the directory.
-
-Issue: Simulation threads not terminating.
-
-Solution: Press Enter to stop the simulation or ensure proper thread management in the code.
-
-Issue: Missing Gson library.
-
-Solution: Download the library and add it to the classpath.
-
-License
-
-This project is open-source and licensed under the MIT License.

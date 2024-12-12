@@ -1255,3 +1255,455 @@ INFO: Would you like to use this configuration? (yes/no)
 [2024-12-07 17:37:01] System stopped.
 [2024-12-07 17:37:01] Simulation interrupted: sleep interrupted
 [2024-12-07 17:37:03] Program exited by the user.
+[2024-12-10 12:02:00] Logger setup complete.
+[2024-12-10 12:02:06] Found saved configuration:
+[2024-12-10 12:02:06] Total Tickets: 50
+[2024-12-10 12:02:06] Max Pool Capacity: 25
+[2024-12-10 12:02:06] Release Rate: 5
+[2024-12-10 12:02:06] Retrieval Rate: 5
+[2024-12-10 12:02:10] Ticketing system started.
+[2024-12-10 12:02:10] Tickets Available in Pool: 5
+[2024-12-10 12:02:10] Processed ticket 1
+[2024-12-10 12:02:10] Tickets Processed: 0/50
+[2024-12-10 12:02:10] Remaining Tickets: 50
+[2024-12-10 12:02:10] Processed ticket 2
+[2024-12-10 12:02:10] Processed ticket 3
+[2024-12-10 12:02:11] Processed ticket 4
+[2024-12-10 12:02:11] Processed ticket 5
+[2024-12-10 12:02:11] Tickets Available in Pool: 5
+[2024-12-10 12:02:11] Tickets Processed: 5/50
+[2024-12-10 12:02:11] Remaining Tickets: 45
+[2024-12-10 12:02:11] Processed ticket 6
+[2024-12-10 12:02:11] Processed ticket 7
+[2024-12-10 12:02:11] Processed ticket 8
+[2024-12-10 12:02:12] Processed ticket 9
+[2024-12-10 12:02:12] Processed ticket 10
+[2024-12-10 12:02:12] Tickets Available in Pool: 5
+[2024-12-10 12:02:12] Tickets Processed: 10/50
+[2024-12-10 12:02:12] Remaining Tickets: 40
+[2024-12-10 12:02:12] Processed ticket 11
+[2024-12-10 12:02:12] Processed ticket 12
+[2024-12-10 12:02:12] Processed ticket 13
+[2024-12-10 12:02:13] Processed ticket 14
+[2024-12-10 12:02:13] Processed ticket 15
+[2024-12-10 12:02:13] Tickets Available in Pool: 5
+[2024-12-10 12:02:13] Tickets Processed: 15/50
+[2024-12-10 12:02:13] Remaining Tickets: 35
+[2024-12-10 12:02:13] Processed ticket 16
+[2024-12-10 12:02:13] Processed ticket 17
+[2024-12-10 12:02:13] Processed ticket 18
+[2024-12-10 12:02:14] Processed ticket 19
+[2024-12-10 12:02:14] Processed ticket 20
+[2024-12-10 12:02:14] Tickets Available in Pool: 5
+[2024-12-10 12:02:14] Tickets Processed: 20/50
+[2024-12-10 12:02:14] Remaining Tickets: 30
+[2024-12-10 12:02:14] Processed ticket 21
+[2024-12-10 12:02:14] Processed ticket 22
+[2024-12-10 12:02:14] Processed ticket 23
+[2024-12-10 12:02:15] Processed ticket 24
+[2024-12-10 12:02:15] Processed ticket 25
+[2024-12-10 12:02:15] Tickets Available in Pool: 5
+[2024-12-10 12:02:15] Tickets Processed: 25/50
+[2024-12-10 12:02:15] Remaining Tickets: 25
+[2024-12-10 12:02:15] Processed ticket 26
+[2024-12-10 12:02:15] Processed ticket 27
+[2024-12-10 12:02:15] Processed ticket 28
+[2024-12-10 20:03:05] Logger setup complete.
+[2024-12-10 20:03:08] Found saved configuration:
+[2024-12-10 20:03:08] Total Tickets: 50
+[2024-12-10 20:03:08] Max Pool Capacity: 25
+[2024-12-10 20:03:08] Release Rate: 5
+[2024-12-10 20:03:08] Retrieval Rate: 5
+[2024-12-10 20:03:12] Ticketing system started.
+[2024-12-10 20:03:12] Tickets Available in Pool: 5
+[2024-12-10 20:03:12] Tickets Processed: 0/50
+[2024-12-10 20:03:12] Processed ticket 1
+[2024-12-10 20:03:12] Remaining Tickets: 50
+[2024-12-10 20:03:12] Processed ticket 2
+[2024-12-10 20:03:12] Processed ticket 3
+[2024-12-10 20:03:12] Processed ticket 4
+[2024-12-10 20:03:12] Processed ticket 5
+[2024-12-10 20:03:13] Tickets Available in Pool: 5
+[2024-12-10 20:03:13] Tickets Processed: 5/50
+[2024-12-10 20:03:13] Remaining Tickets: 45
+[2024-12-10 20:03:13] Processed ticket 6
+[2024-12-10 20:03:13] Processed ticket 7
+[2024-12-10 20:03:13] Processed ticket 8
+[2024-12-10 20:03:13] Processed ticket 9
+[2024-12-10 20:03:13] Stopping ticketing system...
+[2024-12-10 20:03:13] System stopped.
+[2024-12-10 20:03:13] Simulation interrupted: sleep interrupted
+[2024-12-10 20:49:22] Logger setup complete.
+[2024-12-10 20:49:26] Found saved configuration:
+[2024-12-10 20:49:26] Total Tickets: 50
+[2024-12-10 20:49:26] Max Pool Capacity: 25
+[2024-12-10 20:49:26] Release Rate: 5
+[2024-12-10 20:49:26] Retrieval Rate: 5
+[2024-12-10 20:49:31] Ticketing system started.
+[2024-12-10 20:49:31] Tickets Available in Pool: 5
+[2024-12-10 20:49:31] Tickets Processed: 0/50
+[2024-12-10 20:49:31] Remaining Tickets: 50
+[2024-12-10 20:49:31] Processed ticket 1
+[2024-12-10 20:49:31] Processed ticket 2
+[2024-12-10 20:49:32] Processed ticket 3
+[2024-12-10 20:49:32] Processed ticket 4
+[2024-12-10 20:49:32] Processed ticket 5
+[2024-12-10 20:49:32] Tickets Available in Pool: 0
+[2024-12-10 20:49:32] Tickets Processed: 5/50
+[2024-12-10 20:49:32] Remaining Tickets: 45
+[2024-12-10 20:49:32] Processed ticket 6
+[2024-12-10 20:49:33] Processed ticket 7
+[2024-12-10 20:49:33] Processed ticket 8
+[2024-12-10 20:49:33] Processed ticket 9
+[2024-12-10 20:49:33] Stopping ticketing system...
+[2024-12-10 20:49:33] System stopped.
+[2024-12-10 20:49:33] Simulation interrupted: sleep interrupted
+[2024-12-11 03:49:21] Logger setup complete.
+[2024-12-11 03:49:29] Found saved configuration:
+[2024-12-11 03:49:29] Total Tickets: 50
+[2024-12-11 03:49:29] Max Pool Capacity: 25
+[2024-12-11 03:49:29] Release Rate: 5
+[2024-12-11 03:49:29] Retrieval Rate: 5
+[2024-12-11 07:47:44] Logger setup complete.
+[2024-12-11 18:46:37] Logger setup complete.
+[2024-12-11 18:50:15] Logger setup complete.
+[2024-12-11 21:50:40] Logger setup complete.
+[2024-12-11 21:50:44] Found saved configuration:
+[2024-12-11 21:50:44] Total Tickets: 50
+[2024-12-11 21:50:44] Max Pool Capacity: 25
+[2024-12-11 21:50:44] Release Rate: 5
+[2024-12-11 21:50:44] Retrieval Rate: 5
+[2024-12-11 21:50:52] Ticketing system started.
+[2024-12-11 21:50:52] Tickets Available in Pool: 5
+[2024-12-11 21:50:52] Tickets Processed: 0/50
+[2024-12-11 21:50:52] Processed ticket 1
+[2024-12-11 21:50:52] Remaining Tickets: 50
+[2024-12-11 21:50:53] Processed ticket 2
+[2024-12-11 21:50:53] Processed ticket 3
+[2024-12-11 21:50:53] Processed ticket 4
+[2024-12-11 21:50:53] Processed ticket 5
+[2024-12-11 21:50:53] Tickets Available in Pool: 5
+[2024-12-11 21:50:53] Tickets Processed: 5/50
+[2024-12-11 21:50:53] Remaining Tickets: 45
+[2024-12-11 21:50:54] Processed ticket 6
+[2024-12-11 21:50:54] Processed ticket 7
+[2024-12-11 21:50:54] Processed ticket 8
+[2024-12-11 21:50:54] Processed ticket 9
+[2024-12-11 21:50:54] Processed ticket 10
+[2024-12-11 21:50:55] Tickets Available in Pool: 5
+[2024-12-11 21:50:55] Tickets Processed: 10/50
+[2024-12-11 21:50:55] Remaining Tickets: 40
+[2024-12-11 21:50:55] Processed ticket 11
+[2024-12-11 21:50:55] Processed ticket 12
+[2024-12-11 21:50:55] Processed ticket 13
+[2024-12-11 21:50:55] Processed ticket 14
+[2024-12-11 21:50:55] Processed ticket 15
+[2024-12-11 21:50:56] Tickets Available in Pool: 5
+[2024-12-11 21:50:56] Tickets Processed: 15/50
+[2024-12-11 21:50:56] Remaining Tickets: 35
+[2024-12-11 21:50:56] Processed ticket 16
+[2024-12-11 21:50:56] Processed ticket 17
+[2024-12-11 21:50:56] Processed ticket 18
+[2024-12-11 21:50:56] Processed ticket 19
+[2024-12-11 21:50:56] Processed ticket 20
+[2024-12-11 21:50:57] Tickets Available in Pool: 5
+[2024-12-11 21:50:57] Tickets Processed: 20/50
+[2024-12-11 21:50:57] Remaining Tickets: 30
+[2024-12-11 21:50:57] Processed ticket 21
+[2024-12-11 21:50:57] Processed ticket 22
+[2024-12-11 21:50:57] Processed ticket 23
+[2024-12-11 21:50:57] Processed ticket 24
+[2024-12-11 21:50:57] Processed ticket 25
+[2024-12-11 21:50:58] Tickets Available in Pool: 5
+[2024-12-11 21:50:58] Tickets Processed: 25/50
+[2024-12-11 21:50:58] Remaining Tickets: 25
+[2024-12-11 21:50:58] Processed ticket 26
+[2024-12-11 21:50:58] Processed ticket 27
+[2024-12-11 21:50:58] Processed ticket 28
+[2024-12-11 21:50:58] Processed ticket 29
+[2024-12-11 21:50:59] Processed ticket 30
+[2024-12-11 21:50:59] Tickets Available in Pool: 0
+[2024-12-11 21:50:59] Tickets Processed: 30/50
+[2024-12-11 21:50:59] Remaining Tickets: 21
+[2024-12-11 21:50:59] Processed ticket 31
+[2024-12-11 21:50:59] Processed ticket 32
+[2024-12-11 21:50:59] Processed ticket 33
+[2024-12-11 21:50:59] Processed ticket 34
+[2024-12-11 21:51:00] Tickets Available in Pool: 6
+[2024-12-11 21:51:00] Tickets Processed: 34/50
+[2024-12-11 21:51:00] Remaining Tickets: 16
+[2024-12-11 21:51:00] Processed ticket 35
+[2024-12-11 21:51:00] Processed ticket 36
+[2024-12-11 21:51:00] Processed ticket 37
+[2024-12-11 21:51:00] Processed ticket 38
+[2024-12-11 21:51:00] Processed ticket 39
+[2024-12-11 21:51:01] Tickets Available in Pool: 6
+[2024-12-11 21:51:01] Tickets Processed: 39/50
+[2024-12-11 21:51:01] Remaining Tickets: 11
+[2024-12-11 21:51:01] Processed ticket 40
+[2024-12-11 21:51:01] Processed ticket 41
+[2024-12-11 21:51:01] Processed ticket 42
+[2024-12-11 21:51:01] Processed ticket 43
+[2024-12-11 21:51:01] Processed ticket 44
+[2024-12-11 21:51:02] Tickets Available in Pool: 6
+[2024-12-11 21:51:02] Tickets Processed: 44/50
+[2024-12-11 21:51:02] Remaining Tickets: 6
+[2024-12-11 21:51:02] Processed ticket 45
+[2024-12-11 21:51:02] Processed ticket 46
+[2024-12-11 21:51:02] Processed ticket 47
+[2024-12-11 21:51:02] Processed ticket 48
+[2024-12-11 21:51:03] Processed ticket 49
+[2024-12-11 21:51:03] Tickets Available in Pool: 6
+[2024-12-11 21:51:03] Tickets Processed: 49/50
+[2024-12-11 21:51:03] Remaining Tickets: 1
+[2024-12-11 21:51:03] Processed ticket 50
+[2024-12-11 21:51:04] Tickets Available in Pool: 5
+[2024-12-11 21:51:04] Tickets Processed: 50/50
+[2024-12-11 21:51:04] Remaining Tickets: 0
+[2024-12-11 21:51:04] All tickets processed. Shutting down.
+[2024-12-11 21:51:04] Stopping ticketing system...
+[2024-12-11 21:51:04] System stopped.
+[2024-12-11 21:51:11] Stopping ticketing system...
+[2024-12-11 21:51:11] System stopped.
+[2024-12-11 21:51:11] Found saved configuration:
+[2024-12-11 21:51:11] Total Tickets: 50
+[2024-12-11 21:51:11] Max Pool Capacity: 25
+[2024-12-11 21:51:11] Release Rate: 5
+[2024-12-11 21:51:11] Retrieval Rate: 5
+[2024-12-11 21:51:38] Ticketing system started.
+[2024-12-11 21:51:38] Processed ticket 51
+[2024-12-11 21:51:38] Tickets Available in Pool: 9
+[2024-12-11 21:51:38] Tickets Processed: 51/100
+[2024-12-11 21:51:38] Remaining Tickets: 50
+[2024-12-11 21:51:38] Processed ticket 52
+[2024-12-11 21:51:38] Processed ticket 53
+[2024-12-11 21:51:38] Processed ticket 54
+[2024-12-11 21:51:38] Processed ticket 55
+[2024-12-11 21:51:39] Processed ticket 56
+[2024-12-11 21:51:39] Processed ticket 57
+[2024-12-11 21:51:39] Processed ticket 58
+[2024-12-11 21:51:39] Processed ticket 59
+[2024-12-11 21:51:39] Processed ticket 60
+[2024-12-11 21:51:39] Tickets Available in Pool: 10
+[2024-12-11 21:51:39] Tickets Processed: 60/100
+[2024-12-11 21:51:39] Remaining Tickets: 40
+[2024-12-11 21:51:39] Processed ticket 61
+[2024-12-11 21:51:39] Processed ticket 62
+[2024-12-11 21:51:39] Processed ticket 63
+[2024-12-11 21:51:39] Processed ticket 64
+[2024-12-11 21:51:39] Processed ticket 65
+[2024-12-11 21:51:40] Processed ticket 66
+[2024-12-11 21:51:40] Processed ticket 67
+[2024-12-11 21:51:40] Processed ticket 68
+[2024-12-11 21:51:40] Processed ticket 69
+[2024-12-11 21:51:40] Tickets Available in Pool: 11
+[2024-12-11 21:51:40] Tickets Processed: 69/100
+[2024-12-11 21:51:40] Remaining Tickets: 31
+[2024-12-11 21:51:40] Processed ticket 70
+[2024-12-11 21:51:40] Processed ticket 71
+[2024-12-11 21:51:40] Processed ticket 72
+[2024-12-11 21:51:40] Processed ticket 73
+[2024-12-11 21:51:40] Processed ticket 74
+[2024-12-11 21:51:41] Processed ticket 75
+[2024-12-11 21:51:41] Processed ticket 76
+[2024-12-11 21:51:41] Processed ticket 77
+[2024-12-11 21:51:41] Processed ticket 78
+[2024-12-11 21:51:41] Processed ticket 79
+[2024-12-11 21:51:41] Tickets Available in Pool: 11
+[2024-12-11 21:51:41] Tickets Processed: 79/100
+[2024-12-11 21:51:41] Remaining Tickets: 22
+[2024-12-11 21:51:41] Processed ticket 80
+[2024-12-11 21:51:41] Processed ticket 81
+[2024-12-11 21:51:41] Processed ticket 82
+[2024-12-11 21:51:41] Processed ticket 83
+[2024-12-11 21:51:42] Processed ticket 84
+[2024-12-11 21:51:42] Processed ticket 85
+[2024-12-11 21:51:42] Processed ticket 86
+[2024-12-11 21:51:42] Processed ticket 87
+[2024-12-11 21:51:42] Processed ticket 88
+[2024-12-11 21:51:42] Tickets Available in Pool: 12
+[2024-12-11 21:51:42] Tickets Processed: 88/100
+[2024-12-11 21:51:42] Remaining Tickets: 12
+[2024-12-11 21:51:42] Processed ticket 89
+[2024-12-11 21:51:42] Processed ticket 90
+[2024-12-11 21:51:42] Processed ticket 91
+[2024-12-11 21:51:42] Processed ticket 92
+[2024-12-11 21:51:43] Processed ticket 93
+[2024-12-11 21:51:43] Processed ticket 94
+[2024-12-11 21:51:43] Processed ticket 95
+[2024-12-11 21:51:43] Processed ticket 96
+[2024-12-11 21:51:43] Processed ticket 97
+[2024-12-11 21:51:43] Tickets Available in Pool: 13
+[2024-12-11 21:51:43] Tickets Processed: 97/100
+[2024-12-11 21:51:43] Remaining Tickets: 3
+[2024-12-11 21:51:43] Processed ticket 98
+[2024-12-11 21:51:43] Processed ticket 99
+[2024-12-11 21:51:43] Processed ticket 100
+[2024-12-11 21:51:44] Tickets Available in Pool: 10
+[2024-12-11 21:51:44] Tickets Processed: 100/100
+[2024-12-11 21:51:44] Remaining Tickets: 0
+[2024-12-11 21:51:44] All tickets processed. Shutting down.
+[2024-12-11 21:51:44] Stopping ticketing system...
+[2024-12-11 21:51:44] System stopped.
+[2024-12-11 21:51:54] Stopping ticketing system...
+[2024-12-11 21:51:54] System stopped.
+[2024-12-11 21:52:07] Program exited by the user.
+[2024-12-12 05:50:32] Logger setup complete.
+[2024-12-12 05:52:56] Found saved configuration:
+[2024-12-12 05:52:56] Total Tickets: 100
+[2024-12-12 05:52:56] Max Pool Capacity: 50
+[2024-12-12 05:52:56] Release Rate: 10
+[2024-12-12 05:52:56] Retrieval Rate: 10
+[2024-12-12 05:53:22] Logger setup complete.
+[2024-12-12 05:53:24] Found saved configuration:
+[2024-12-12 05:53:24] Total Tickets: 100
+[2024-12-12 05:53:24] Max Pool Capacity: 50
+[2024-12-12 05:53:24] Release Rate: 10
+[2024-12-12 05:53:24] Retrieval Rate: 10
+[2024-12-12 06:01:37] Ticketing system started.
+[2024-12-12 06:01:37] Tickets Available in Pool: 10
+[2024-12-12 06:01:37] Tickets Processed: 0/100
+[2024-12-12 06:01:37] Processed ticket 1
+[2024-12-12 06:01:37] Remaining Tickets: 100
+[2024-12-12 06:01:38] Processed ticket 2
+[2024-12-12 06:01:38] Processed ticket 3
+[2024-12-12 06:01:38] Processed ticket 4
+[2024-12-12 06:01:38] Processed ticket 5
+[2024-12-12 06:01:38] Processed ticket 6
+[2024-12-12 06:01:38] Processed ticket 7
+[2024-12-12 06:01:38] Processed ticket 8
+[2024-12-12 06:01:38] Processed ticket 9
+[2024-12-12 06:01:38] Processed ticket 10
+[2024-12-12 06:01:38] Tickets Available in Pool: 10
+[2024-12-12 06:01:38] Tickets Processed: 10/100
+[2024-12-12 06:01:38] Remaining Tickets: 90
+[2024-12-12 06:01:39] Processed ticket 11
+[2024-12-12 06:01:39] Processed ticket 12
+[2024-12-12 06:01:39] Processed ticket 13
+[2024-12-12 06:01:39] Processed ticket 14
+[2024-12-12 06:01:39] Processed ticket 15
+[2024-12-12 06:01:39] Processed ticket 16
+[2024-12-12 06:01:39] Processed ticket 17
+[2024-12-12 06:01:39] Processed ticket 18
+[2024-12-12 06:01:39] Processed ticket 19
+[2024-12-12 06:01:40] Tickets Available in Pool: 11
+[2024-12-12 06:01:40] Tickets Processed: 19/100
+[2024-12-12 06:01:40] Remaining Tickets: 81
+[2024-12-12 06:01:40] Processed ticket 20
+[2024-12-12 06:01:40] Processed ticket 21
+[2024-12-12 06:01:40] Processed ticket 22
+[2024-12-12 06:01:40] Processed ticket 23
+[2024-12-12 06:01:40] Processed ticket 24
+[2024-12-12 06:01:40] Processed ticket 25
+[2024-12-12 06:01:40] Processed ticket 26
+[2024-12-12 06:01:40] Processed ticket 27
+[2024-12-12 06:01:40] Processed ticket 28
+[2024-12-12 06:01:41] Tickets Available in Pool: 12
+[2024-12-12 06:01:41] Tickets Processed: 28/100
+[2024-12-12 06:01:41] Remaining Tickets: 72
+[2024-12-12 06:01:41] Processed ticket 29
+[2024-12-12 06:01:41] Processed ticket 30
+[2024-12-12 06:01:41] Processed ticket 31
+[2024-12-12 06:01:41] Processed ticket 32
+[2024-12-12 06:01:41] Processed ticket 33
+[2024-12-12 06:01:41] Processed ticket 34
+[2024-12-12 06:01:41] Processed ticket 35
+[2024-12-12 06:01:41] Processed ticket 36
+[2024-12-12 06:01:41] Processed ticket 37
+[2024-12-12 06:01:42] Processed ticket 38
+[2024-12-12 06:01:42] Tickets Available in Pool: 12
+[2024-12-12 06:01:42] Tickets Processed: 38/100
+[2024-12-12 06:01:42] Remaining Tickets: 62
+[2024-12-12 06:01:42] Processed ticket 39
+[2024-12-12 06:01:42] Processed ticket 40
+[2024-12-12 06:01:42] Processed ticket 41
+[2024-12-12 06:01:42] Processed ticket 42
+[2024-12-12 06:01:42] Processed ticket 43
+[2024-12-12 06:01:42] Processed ticket 44
+[2024-12-12 06:01:42] Processed ticket 45
+[2024-12-12 06:01:42] Processed ticket 46
+[2024-12-12 06:01:42] Processed ticket 47
+[2024-12-12 06:01:43] Tickets Available in Pool: 13
+[2024-12-12 06:01:43] Tickets Processed: 47/100
+[2024-12-12 06:01:43] Remaining Tickets: 53
+[2024-12-12 06:01:43] Processed ticket 48
+[2024-12-12 06:01:43] Processed ticket 49
+[2024-12-12 06:01:43] Processed ticket 50
+[2024-12-12 06:01:43] Processed ticket 51
+[2024-12-12 06:01:43] Processed ticket 52
+[2024-12-12 06:01:43] Processed ticket 53
+[2024-12-12 06:01:43] Processed ticket 54
+[2024-12-12 06:01:43] Processed ticket 55
+[2024-12-12 06:01:43] Processed ticket 56
+[2024-12-12 06:01:44] Tickets Available in Pool: 14
+[2024-12-12 06:01:44] Tickets Processed: 56/100
+[2024-12-12 06:01:44] Remaining Tickets: 44
+[2024-12-12 06:01:44] Processed ticket 57
+[2024-12-12 06:01:44] Processed ticket 58
+[2024-12-12 06:01:44] Processed ticket 59
+[2024-12-12 06:01:44] Processed ticket 60
+[2024-12-12 06:01:44] Processed ticket 61
+[2024-12-12 06:01:44] Processed ticket 62
+[2024-12-12 06:01:44] Processed ticket 63
+[2024-12-12 06:01:44] Processed ticket 64
+[2024-12-12 06:01:44] Processed ticket 65
+[2024-12-12 06:01:45] Processed ticket 66
+[2024-12-12 06:01:45] Tickets Available in Pool: 14
+[2024-12-12 06:01:45] Tickets Processed: 66/100
+[2024-12-12 06:01:45] Remaining Tickets: 35
+[2024-12-12 06:01:45] Processed ticket 67
+[2024-12-12 06:01:45] Processed ticket 68
+[2024-12-12 06:01:45] Processed ticket 69
+[2024-12-12 06:01:45] Processed ticket 70
+[2024-12-12 06:01:45] Processed ticket 71
+[2024-12-12 06:01:45] Processed ticket 72
+[2024-12-12 06:01:45] Processed ticket 73
+[2024-12-12 06:01:45] Processed ticket 74
+[2024-12-12 06:01:46] Processed ticket 75
+[2024-12-12 06:01:46] Tickets Available in Pool: 15
+[2024-12-12 06:01:46] Tickets Processed: 75/100
+[2024-12-12 06:01:46] Remaining Tickets: 25
+[2024-12-12 06:01:46] Processed ticket 76
+[2024-12-12 06:01:46] Processed ticket 77
+[2024-12-12 06:01:46] Processed ticket 78
+[2024-12-12 06:01:46] Processed ticket 79
+[2024-12-12 06:01:46] Processed ticket 80
+[2024-12-12 06:01:46] Processed ticket 81
+[2024-12-12 06:01:46] Processed ticket 82
+[2024-12-12 06:01:46] Processed ticket 83
+[2024-12-12 06:01:46] Processed ticket 84
+[2024-12-12 06:01:47] Tickets Available in Pool: 16
+[2024-12-12 06:01:47] Tickets Processed: 84/100
+[2024-12-12 06:01:47] Remaining Tickets: 16
+[2024-12-12 06:01:47] Processed ticket 85
+[2024-12-12 06:01:47] Processed ticket 86
+[2024-12-12 06:01:47] Processed ticket 87
+[2024-12-12 06:01:47] Processed ticket 88
+[2024-12-12 06:01:47] Processed ticket 89
+[2024-12-12 06:01:47] Processed ticket 90
+[2024-12-12 06:01:47] Processed ticket 91
+[2024-12-12 06:01:47] Processed ticket 92
+[2024-12-12 06:01:47] Processed ticket 93
+[2024-12-12 06:01:48] Processed ticket 94
+[2024-12-12 06:01:48] Tickets Available in Pool: 16
+[2024-12-12 06:01:48] Tickets Processed: 94/100
+[2024-12-12 06:01:48] Remaining Tickets: 7
+[2024-12-12 06:01:48] Processed ticket 95
+[2024-12-12 06:01:48] Processed ticket 96
+[2024-12-12 06:01:48] Processed ticket 97
+[2024-12-12 06:01:48] Processed ticket 98
+[2024-12-12 06:01:48] Processed ticket 99
+[2024-12-12 06:01:48] Processed ticket 100
+[2024-12-12 06:01:49] Tickets Available in Pool: 10
+[2024-12-12 06:01:49] Tickets Processed: 100/100
+[2024-12-12 06:01:49] Remaining Tickets: 0
+[2024-12-12 06:01:49] All tickets processed. Shutting down.
+[2024-12-12 06:01:49] Stopping ticketing system...
+[2024-12-12 06:01:49] System stopped.
+[2024-12-12 06:05:32] Stopping ticketing system...
+[2024-12-12 06:05:32] System stopped.
+[2024-12-12 06:05:32] Found saved configuration:
+[2024-12-12 06:05:32] Total Tickets: 100
+[2024-12-12 06:05:32] Max Pool Capacity: 50
+[2024-12-12 06:05:32] Release Rate: 10
+[2024-12-12 06:05:32] Retrieval Rate: 10

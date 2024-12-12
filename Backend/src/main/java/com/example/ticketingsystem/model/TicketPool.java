@@ -122,6 +122,15 @@ public class TicketPool {
         }
     }
 
+    /**
+     * Returns the total number of tickets processed (both added and removed).
+     * 
+     * @return the total number of tickets processed
+     */
+    public int getTotalTicketsProcessed() {
+        return totalTicketsProcessed;
+    }
+
     @Override
     public String toString() {
         return String.format("TicketPool[size=%d, capacity=%d, processed=%d, peak=%d]",

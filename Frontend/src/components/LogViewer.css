@@ -1,0 +1,82 @@
+.log-viewer {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.status-section, .logs-section {
+  margin-bottom: 20px;
+}
+
+.status-section h3, .logs-section h3 {
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 8px;
+}
+
+.status-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 10px;
+}
+
+.status-label {
+  font-weight: bold;
+  color: #666;
+  margin-right: 10px;
+}
+
+.status-value {
+  font-family: monospace;
+}
+
+.status-value.running {
+  color: #28a745;
+}
+
+.status-value.stopped {
+  color: #dc3545;
+}
+
+.logs-container {
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.log-entry {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.log-entry:last-child {
+  border-bottom: none;
+}
+
+.timestamp {
+  color: #666;
+  font-family: monospace;
+  white-space: nowrap;
+}
+
+.message {
+  flex: 1;
+  color: #333;
+}
+
+.ticket-info {
+  color: #0066cc;
+  font-family: monospace;
+  white-space: nowrap;
+}

@@ -1,0 +1,546 @@
+2024-12-11 01:28:44 [restartedMain] INFO  c.e.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 22.0.1 with PID 15204 (C:\Users\COSTA\Desktop\OOP CW new 1\Backend\target\classes started by COSTA in C:\Users\COSTA\Desktop\OOP CW new 1\Backend)
+2024-12-11 01:28:44 [restartedMain] INFO  c.e.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:28:44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 01:28:44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 01:28:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11 01:28:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+2024-12-11 01:28:46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 01:28:46 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:28:46 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 01:28:46 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-12-11 01:28:46 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 01:28:46 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1772 ms
+2024-12-11 01:28:46 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 01:28:46 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-12-11 01:28:47 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 01:28:47 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-11 01:28:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 01:28:47 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59497bd0
+2024-12-11 01:28:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 01:28:48 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 01:28:48 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 01:28:49 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-11 01:28:49 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:28:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-12-11 01:28:49 [restartedMain] INFO  c.e.t.TicketingSystemApplication - Started TicketingSystemApplication in 5.057 seconds (process running for 6.224)
+2024-12-11 01:29:29 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 01:29:29 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-11 01:29:29 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-12-11 01:29:29 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:28 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=null}
+2024-12-11 01:29:29 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:28 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=null}
+2024-12-11 01:29:29 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=null}
+2024-12-11 01:29:29 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=null}
+2024-12-11 01:29:29 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:29 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:29 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:29 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:30 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:30 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:30 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:30 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=null}
+2024-12-11 01:29:30 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=null}
+2024-12-11 01:29:30 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:30 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:30 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:30 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:31 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:31 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:31 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:31 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:31 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:30 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:31 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=null}
+2024-12-11 01:29:31 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=null}
+2024-12-11 01:29:31 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:31 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:31 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:31 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:32 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:32 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:32 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:32 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:32 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:31 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:32 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:32 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:30 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:32 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=null}
+2024-12-11 01:29:32 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=null}
+2024-12-11 01:29:32 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:32 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:32 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:32 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:33 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:33 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:33 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:33 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:32 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:33 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:31 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:33 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:33 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:33 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:30 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:33 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:34 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:34 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:34 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:34 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:34 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:33 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:34 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:31 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:34 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:32 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:34 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:34 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:35 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:35 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:35 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:35 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:34 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:35 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:35 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:35 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:33 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:35 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:32 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:35 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:36 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:36 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:36 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:36 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:34 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:36 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:35 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:36 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:36 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:36 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:36 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:33 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:37 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:37 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:37 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:37 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:37 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:36 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:37 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:34 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:37 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:35 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:37 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:37 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:38 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:38 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:38 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:38 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:38 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:37 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:38 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:36 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:38 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:38 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:35 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:38 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:39 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:39 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:39 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:39 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:39 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:38 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:39 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:39 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:37 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:39 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:36 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:39 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:40 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:40 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:40 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:40 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:40 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:39 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:40 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:40 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:38 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:40 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:37 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:40 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:41 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:41 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:41 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:41 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:40 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:41 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:41 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:41 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:41 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:39 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:41 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:41 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:38 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:41 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:42 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:41 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:42 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:42 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:42 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:42 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:42 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:40 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:42 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:41 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:42 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:42 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:39 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:42 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:43 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:43 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:43 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:43 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:41 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:43 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:42 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:43 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:43 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:43 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:40 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:43 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:29:41 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:43 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:44 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:44 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:44 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:44 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:43 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:44 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:44 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:41 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:44 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:42 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:44 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:44 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:41 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:29:44 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:45 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:45 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:45 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:46 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:46 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:46 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:47 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:47 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:47 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:48 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:48 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:48 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:49 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:49 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:49 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:50 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:50 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:50 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:51 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:51 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:51 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:52 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:52 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:52 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:53 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:53 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:53 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:54 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:54 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:54 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:55 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:55 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:55 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:56 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:56 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:56 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:57 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:57 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:57 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:58 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:58 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:58 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:29:59 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:29:59 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:29:59 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:00 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:30:00 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:30:00 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:01 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:01 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:30:01 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:30:02 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:30:02 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:30:02 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:03 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:30:03 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:30:03 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:04 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:30:04 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:30:04 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:05 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:30:05 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:30:05 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:06 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:06 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:30:06 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:30:07 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:07 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:30:07 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:30:08 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:08 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:30:08 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:30:09 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - Received log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:09 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - Received log entry: {timestamp=1:30:09 AM, type=system_status, message=System Running, availableTickets=0, capacity=0}
+2024-12-11 01:30:10 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:10 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:10 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:11 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:11 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:11 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:11 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:11 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:10 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:12 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:11 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:12 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:12 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:12 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:12 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:12 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:12 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:10 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:13 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:11 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:13 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:13 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:10 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:13 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:12 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:13 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:13 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:13 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:13 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:13 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:14 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:14 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:14 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:15 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:15 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:11 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:15 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:13 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:15 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:12 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:15 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:15 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:15 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:15 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:15 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:16 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:14 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:16 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:16 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:16 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:16 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:17 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:13 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:17 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:17 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:17 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:12 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:17 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:15 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:17 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:17 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:17 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:14 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:17 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:17 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:17 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:18 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:18 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:16 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:18 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:18 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:18 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:19 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:19 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:15 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:19 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:13 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:19 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:19 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:19 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:14 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:19 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:17 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:19 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:19 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:19 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:19 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:20 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:20 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:18 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:20 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:16 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:20 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:20 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:20 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:20 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:21 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:21 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:17 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:21 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:15 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:21 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:19 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:21 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:21 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:21 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:21 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:21 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:22 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:18 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:22 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:22 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:20 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:22 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:16 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:22 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:22 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:22 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:22 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:22 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:23 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:23 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:17 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:23 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:19 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:23 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:23 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:21 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:23 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:23 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:23 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:23 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:24 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:20 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:24 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:18 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:24 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:24 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:24 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:24 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:22 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:24 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:24 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:24 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:25 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:19 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:25 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:21 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:25 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:25 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:23 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:25 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:25 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:25 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:25 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:25 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:26 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:20 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:26 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:26 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:24 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:26 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:22 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:26 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:26 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:26 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:26 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:26 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:27 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:27 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:25 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:27 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:27 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:21 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:27 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:23 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:27 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:27 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:27 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:27 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:28 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:28 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:24 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:28 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:28 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:26 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:28 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:22 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:28 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:28 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:28 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:28 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:29 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:29 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:25 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:29 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:23 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:29 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:29 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:29 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:27 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:29 [http-nio-8080-exec-8] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:30:29 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:30:29 [http-nio-8080-exec-7] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:28:48}
+2024-12-11 01:30:29 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 01:30:29 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 01:30:29 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 01:31:55 [restartedMain] INFO  c.e.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 22.0.1 with PID 16604 (C:\Users\COSTA\Desktop\OOP CW new 1\Backend\target\classes started by COSTA in C:\Users\COSTA\Desktop\OOP CW new 1\Backend)
+2024-12-11 01:31:55 [restartedMain] INFO  c.e.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:31:55 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 01:31:55 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 01:31:56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11 01:31:56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2024-12-11 01:31:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 01:31:57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:31:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 01:31:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-12-11 01:31:57 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 01:31:57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1613 ms
+2024-12-11 01:31:57 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 01:31:57 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-12-11 01:31:57 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 01:31:58 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-11 01:31:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 01:31:58 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e507ff0
+2024-12-11 01:31:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 01:31:59 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 01:31:59 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 01:32:00 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-11 01:32:00 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:32:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-12-11 01:32:00 [restartedMain] INFO  c.e.t.TicketingSystemApplication - Started TicketingSystemApplication in 4.886 seconds (process running for 5.964)
+2024-12-11 01:32:00 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 01:32:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-11 01:32:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-11 01:32:14 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 01:32:14 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 01:32:14 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 01:36:39 [restartedMain] INFO  c.e.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 22.0.1 with PID 13316 (C:\Users\COSTA\Desktop\OOP CW new 1\Backend\target\classes started by COSTA in C:\Users\COSTA\Desktop\OOP CW new 1\Backend)
+2024-12-11 01:36:39 [restartedMain] INFO  c.e.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:36:39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 01:36:39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 01:36:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11 01:36:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
+2024-12-11 01:36:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 01:36:40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:36:41 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 01:36:41 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-12-11 01:36:41 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 01:36:41 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1587 ms
+2024-12-11 01:36:41 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 01:36:41 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-12-11 01:36:41 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 01:36:41 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-11 01:36:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 01:36:41 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8c16add
+2024-12-11 01:36:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 01:36:42 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 01:36:43 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 01:36:43 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-11 01:36:43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:36:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-12-11 01:36:43 [restartedMain] INFO  c.e.t.TicketingSystemApplication - Started TicketingSystemApplication in 4.845 seconds (process running for 5.887)
+2024-12-11 01:36:43 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 01:36:43 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-11 01:36:43 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-12-11 01:36:44 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 01:36:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 01:36:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 01:37:20 [restartedMain] INFO  c.e.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 22.0.1 with PID 23924 (C:\Users\COSTA\Desktop\OOP CW new 1\Backend\target\classes started by COSTA in C:\Users\COSTA\Desktop\OOP CW new 1\Backend)
+2024-12-11 01:37:20 [restartedMain] INFO  c.e.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:37:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 01:37:20 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 01:37:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11 01:37:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2024-12-11 01:37:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 01:37:22 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:37:22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 01:37:22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-12-11 01:37:22 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 01:37:22 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1607 ms
+2024-12-11 01:37:22 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 01:37:22 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-12-11 01:37:22 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 01:37:22 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-11 01:37:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 01:37:23 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@597c52e9
+2024-12-11 01:37:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 01:37:24 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 01:37:24 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 01:37:24 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-11 01:37:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:37:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-12-11 01:37:25 [restartedMain] INFO  c.e.t.TicketingSystemApplication - Started TicketingSystemApplication in 4.934 seconds (process running for 6.006)
+2024-12-11 01:37:25 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 01:37:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 01:37:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 01:39:06 [restartedMain] INFO  c.e.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 22.0.1 with PID 6076 (C:\Users\COSTA\Desktop\OOP CW new 1\Backend\target\classes started by COSTA in C:\Users\COSTA\Desktop\OOP CW new 1\Backend)
+2024-12-11 01:39:06 [restartedMain] INFO  c.e.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:39:06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 01:39:06 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 01:39:07 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11 01:39:07 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
+2024-12-11 01:39:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 01:39:07 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:39:07 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 01:39:07 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-12-11 01:39:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 01:39:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1629 ms
+2024-12-11 01:39:08 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 01:39:08 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-12-11 01:39:08 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 01:39:08 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-11 01:39:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 01:39:08 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44c8b37c
+2024-12-11 01:39:08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 01:39:09 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 01:39:09 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 01:39:10 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-11 01:39:10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:39:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-12-11 01:39:10 [restartedMain] INFO  c.e.t.TicketingSystemApplication - Started TicketingSystemApplication in 4.832 seconds (process running for 5.933)
+2024-12-11 01:39:10 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 01:39:10 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-11 01:39:10 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-11 01:39:16 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 01:39:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 01:39:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 01:43:26 [restartedMain] INFO  c.e.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 22.0.1 with PID 11580 (C:\Users\COSTA\Desktop\OOP CW new 1\Backend\target\classes started by COSTA in C:\Users\COSTA\Desktop\OOP CW new 1\Backend)
+2024-12-11 01:43:26 [restartedMain] INFO  c.e.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:43:26 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 01:43:26 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 01:43:26 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11 01:43:26 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2024-12-11 01:43:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 01:43:27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:43:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 01:43:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-12-11 01:43:27 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 01:43:27 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1634 ms
+2024-12-11 01:43:27 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 01:43:28 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-12-11 01:43:28 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 01:43:28 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-11 01:43:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 01:43:28 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5783442d
+2024-12-11 01:43:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 01:43:29 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 01:43:29 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 01:43:30 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-11 01:43:30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:43:30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-12-11 01:43:30 [restartedMain] INFO  c.e.t.TicketingSystemApplication - Started TicketingSystemApplication in 4.936 seconds (process running for 5.93)
+2024-12-11 01:43:30 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 01:43:30 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-11 01:43:30 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-11 01:43:31 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 01:43:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 01:43:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-11 01:45:55 [restartedMain] INFO  c.e.t.TicketingSystemApplication - Starting TicketingSystemApplication using Java 22.0.1 with PID 12272 (C:\Users\COSTA\Desktop\OOP CW new 1\Backend\target\classes started by COSTA in C:\Users\COSTA\Desktop\OOP CW new 1\Backend)
+2024-12-11 01:45:55 [restartedMain] INFO  c.e.t.TicketingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 01:45:55 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11 01:45:55 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11 01:45:56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11 01:45:56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2024-12-11 01:45:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-11 01:45:56 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:45:56 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 01:45:56 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-12-11 01:45:56 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 01:45:56 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1657 ms
+2024-12-11 01:45:57 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11 01:45:57 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-12-11 01:45:57 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-11 01:45:57 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-11 01:45:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-11 01:45:57 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c2e1a62
+2024-12-11 01:45:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-11 01:45:58 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11 01:45:58 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 01:45:59 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-11 01:45:59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-11 01:45:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-12-11 01:45:59 [restartedMain] INFO  c.e.t.TicketingSystemApplication - Started TicketingSystemApplication in 4.924 seconds (process running for 5.977)
+2024-12-11 01:45:59 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 01:45:59 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-11 01:45:59 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-11 01:45:59 [http-nio-8080-exec-6] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:45:58}
+2024-12-11 01:45:59 [http-nio-8080-exec-3] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:45:59 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:45:59 [http-nio-8080-exec-1] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:45:59 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:45:59 [http-nio-8080-exec-5] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:45:58}
+2024-12-11 01:45:59 [http-nio-8080-exec-2] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:45:59 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:45:59 [http-nio-8080-exec-4] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:45:58}
+2024-12-11 01:46:00 [http-nio-8080-exec-9] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {timestamp=1:46:00 AM, type=system_status, message=System Stopped, availableTickets=0, capacity=0}
+2024-12-11 01:46:00 [http-nio-8080-exec-10] INFO  c.e.t.controller.TicketingController - System is stopped; ignoring log entry: {type=system_status, message=System initialized, timestamp=2024-12-11 01:45:58}
+2024-12-11 01:46:01 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11 01:46:01 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-11 01:46:01 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

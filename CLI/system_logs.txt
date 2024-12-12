@@ -140,3 +140,1078 @@
 ----------------------------------------
 [2024-12-07 17:37:03.988] Configuration saved to Configuration.json
 [2024-12-07 17:37:03.990] Settings saved to settings.txt
+[2024-12-10 12:02:06.851] Configuration loaded from Configuration.json
+[2024-12-10 12:02:10.378] Ticket Pool initialized with capacity: 25
+----------------------------------------
+[2024-12-10 12:02:10.384] New ticket added to pool: Ticket #856 | Pool size: 1/25
+----------------------------------------
+[2024-12-10 12:02:10.385] New ticket added to pool: Ticket #10 | Pool size: 2/25
+----------------------------------------
+[2024-12-10 12:02:10.385] New ticket added to pool: Ticket #348 | Pool size: 3/25
+----------------------------------------
+[2024-12-10 12:02:10.385] New ticket added to pool: Ticket #2 | Pool size: 4/25
+----------------------------------------
+[2024-12-10 12:02:10.385] New ticket added to pool: Ticket #963 | Pool size: 5/25
+----------------------------------------
+[2024-12-10 12:02:10.385] Ticket #856 sold | Total tickets sold: 1 | Remaining in pool: 4
+----------------------------------------
+[2024-12-10 12:02:10.596] Ticket #10 sold | Total tickets sold: 2 | Remaining in pool: 3
+----------------------------------------
+[2024-12-10 12:02:10.811] Ticket #348 sold | Total tickets sold: 3 | Remaining in pool: 2
+----------------------------------------
+[2024-12-10 12:02:11.028] Ticket #2 sold | Total tickets sold: 4 | Remaining in pool: 1
+----------------------------------------
+[2024-12-10 12:02:11.232] Ticket #963 sold | Total tickets sold: 5 | Remaining in pool: 0
+----------------------------------------
+[2024-12-10 12:02:11.389] New ticket added to pool: Ticket #442 | Pool size: 1/25
+----------------------------------------
+[2024-12-10 12:02:11.389] New ticket added to pool: Ticket #975 | Pool size: 2/25
+----------------------------------------
+[2024-12-10 12:02:11.390] New ticket added to pool: Ticket #225 | Pool size: 3/25
+----------------------------------------
+[2024-12-10 12:02:11.390] New ticket added to pool: Ticket #502 | Pool size: 4/25
+----------------------------------------
+[2024-12-10 12:02:11.390] New ticket added to pool: Ticket #6 | Pool size: 5/25
+----------------------------------------
+[2024-12-10 12:02:11.436] Ticket #442 sold | Total tickets sold: 6 | Remaining in pool: 4
+----------------------------------------
+[2024-12-10 12:02:11.651] Ticket #975 sold | Total tickets sold: 7 | Remaining in pool: 3
+----------------------------------------
+[2024-12-10 12:02:11.853] Ticket #225 sold | Total tickets sold: 8 | Remaining in pool: 2
+----------------------------------------
+[2024-12-10 12:02:12.056] Ticket #502 sold | Total tickets sold: 9 | Remaining in pool: 1
+----------------------------------------
+[2024-12-10 12:02:12.257] Ticket #6 sold | Total tickets sold: 10 | Remaining in pool: 0
+----------------------------------------
+[2024-12-10 12:02:12.397] New ticket added to pool: Ticket #122 | Pool size: 1/25
+----------------------------------------
+[2024-12-10 12:02:12.398] New ticket added to pool: Ticket #851 | Pool size: 2/25
+----------------------------------------
+[2024-12-10 12:02:12.398] New ticket added to pool: Ticket #619 | Pool size: 3/25
+----------------------------------------
+[2024-12-10 12:02:12.399] New ticket added to pool: Ticket #473 | Pool size: 4/25
+----------------------------------------
+[2024-12-10 12:02:12.399] New ticket added to pool: Ticket #4 | Pool size: 5/25
+----------------------------------------
+[2024-12-10 12:02:12.459] Ticket #122 sold | Total tickets sold: 11 | Remaining in pool: 4
+----------------------------------------
+[2024-12-10 12:02:12.661] Ticket #851 sold | Total tickets sold: 12 | Remaining in pool: 3
+----------------------------------------
+[2024-12-10 12:02:12.865] Ticket #619 sold | Total tickets sold: 13 | Remaining in pool: 2
+----------------------------------------
+[2024-12-10 12:02:13.081] Ticket #473 sold | Total tickets sold: 14 | Remaining in pool: 1
+----------------------------------------
+[2024-12-10 12:02:13.283] Ticket #4 sold | Total tickets sold: 15 | Remaining in pool: 0
+----------------------------------------
+[2024-12-10 12:02:13.405] New ticket added to pool: Ticket #729 | Pool size: 1/25
+----------------------------------------
+[2024-12-10 12:02:13.406] New ticket added to pool: Ticket #774 | Pool size: 2/25
+----------------------------------------
+[2024-12-10 12:02:13.407] New ticket added to pool: Ticket #669 | Pool size: 3/25
+----------------------------------------
+[2024-12-10 12:02:13.407] New ticket added to pool: Ticket #951 | Pool size: 4/25
+----------------------------------------
+[2024-12-10 12:02:13.407] New ticket added to pool: Ticket #260 | Pool size: 5/25
+----------------------------------------
+[2024-12-10 12:02:13.498] Ticket #729 sold | Total tickets sold: 16 | Remaining in pool: 4
+----------------------------------------
+[2024-12-10 12:02:13.700] Ticket #774 sold | Total tickets sold: 17 | Remaining in pool: 3
+----------------------------------------
+[2024-12-10 12:02:13.902] Ticket #669 sold | Total tickets sold: 18 | Remaining in pool: 2
+----------------------------------------
+[2024-12-10 12:02:14.106] Ticket #951 sold | Total tickets sold: 19 | Remaining in pool: 1
+----------------------------------------
+[2024-12-10 12:02:14.320] Ticket #260 sold | Total tickets sold: 20 | Remaining in pool: 0
+----------------------------------------
+[2024-12-10 12:02:14.413] New ticket added to pool: Ticket #474 | Pool size: 1/25
+----------------------------------------
+[2024-12-10 12:02:14.414] New ticket added to pool: Ticket #973 | Pool size: 2/25
+----------------------------------------
+[2024-12-10 12:02:14.414] New ticket added to pool: Ticket #136 | Pool size: 3/25
+----------------------------------------
+[2024-12-10 12:02:14.415] New ticket added to pool: Ticket #120 | Pool size: 4/25
+----------------------------------------
+[2024-12-10 12:02:14.415] New ticket added to pool: Ticket #490 | Pool size: 5/25
+----------------------------------------
+[2024-12-10 12:02:14.525] Ticket #474 sold | Total tickets sold: 21 | Remaining in pool: 4
+----------------------------------------
+[2024-12-10 12:02:14.740] Ticket #973 sold | Total tickets sold: 22 | Remaining in pool: 3
+----------------------------------------
+[2024-12-10 12:02:14.941] Ticket #136 sold | Total tickets sold: 23 | Remaining in pool: 2
+----------------------------------------
+[2024-12-10 12:02:15.144] Ticket #120 sold | Total tickets sold: 24 | Remaining in pool: 1
+----------------------------------------
+[2024-12-10 12:02:15.346] Ticket #490 sold | Total tickets sold: 25 | Remaining in pool: 0
+----------------------------------------
+[2024-12-10 12:02:15.423] New ticket added to pool: Ticket #738 | Pool size: 1/25
+----------------------------------------
+[2024-12-10 12:02:15.424] New ticket added to pool: Ticket #917 | Pool size: 2/25
+----------------------------------------
+[2024-12-10 12:02:15.424] New ticket added to pool: Ticket #359 | Pool size: 3/25
+----------------------------------------
+[2024-12-10 12:02:15.424] New ticket added to pool: Ticket #563 | Pool size: 4/25
+----------------------------------------
+[2024-12-10 12:02:15.425] New ticket added to pool: Ticket #307 | Pool size: 5/25
+----------------------------------------
+[2024-12-10 12:02:15.548] Ticket #738 sold | Total tickets sold: 26 | Remaining in pool: 4
+----------------------------------------
+[2024-12-10 12:02:15.750] Ticket #917 sold | Total tickets sold: 27 | Remaining in pool: 3
+----------------------------------------
+[2024-12-10 12:02:15.952] Ticket #359 sold | Total tickets sold: 28 | Remaining in pool: 2
+----------------------------------------
+[2024-12-10 12:02:15.969] Configuration saved to Configuration.json
+[2024-12-10 12:02:15.970] Settings saved to settings.txt
+[2024-12-10 20:03:08.750] Configuration loaded from Configuration.json
+[2024-12-10 20:03:12.004] Ticket Pool initialized with capacity: 25
+----------------------------------------
+[2024-12-10 20:03:12.018] New ticket added to pool: Ticket #361 | Pool size: 1/25
+----------------------------------------
+[2024-12-10 20:03:12.019] New ticket added to pool: Ticket #674 | Pool size: 2/25
+----------------------------------------
+[2024-12-10 20:03:12.020] New ticket added to pool: Ticket #2 | Pool size: 3/25
+----------------------------------------
+[2024-12-10 20:03:12.021] New ticket added to pool: Ticket #888 | Pool size: 4/25
+----------------------------------------
+[2024-12-10 20:03:12.021] New ticket added to pool: Ticket #969 | Pool size: 5/25
+----------------------------------------
+[2024-12-10 20:03:12.022] Ticket #361 sold | Total tickets sold: 1 | Remaining in pool: 4
+----------------------------------------
+[2024-12-10 20:03:12.232] Ticket #674 sold | Total tickets sold: 2 | Remaining in pool: 3
+----------------------------------------
+[2024-12-10 20:03:12.449] Ticket #2 sold | Total tickets sold: 3 | Remaining in pool: 2
+----------------------------------------
+[2024-12-10 20:03:12.653] Ticket #888 sold | Total tickets sold: 4 | Remaining in pool: 1
+----------------------------------------
+[2024-12-10 20:03:12.867] Ticket #969 sold | Total tickets sold: 5 | Remaining in pool: 0
+----------------------------------------
+[2024-12-10 20:03:13.024] New ticket added to pool: Ticket #791 | Pool size: 1/25
+----------------------------------------
+[2024-12-10 20:03:13.026] New ticket added to pool: Ticket #692 | Pool size: 2/25
+----------------------------------------
+[2024-12-10 20:03:13.027] New ticket added to pool: Ticket #557 | Pool size: 3/25
+----------------------------------------
+[2024-12-10 20:03:13.027] New ticket added to pool: Ticket #852 | Pool size: 4/25
+----------------------------------------
+[2024-12-10 20:03:13.028] New ticket added to pool: Ticket #203 | Pool size: 5/25
+----------------------------------------
+[2024-12-10 20:03:13.074] Ticket #791 sold | Total tickets sold: 6 | Remaining in pool: 4
+----------------------------------------
+[2024-12-10 20:03:13.289] Ticket #692 sold | Total tickets sold: 7 | Remaining in pool: 3
+----------------------------------------
+[2024-12-10 20:03:13.504] Ticket #557 sold | Total tickets sold: 8 | Remaining in pool: 2
+----------------------------------------
+[2024-12-10 20:03:13.706] Ticket #852 sold | Total tickets sold: 9 | Remaining in pool: 1
+----------------------------------------
+[2024-12-10 20:03:24.154] Configuration saved to Configuration.json
+[2024-12-10 20:03:24.156] Settings saved to settings.txt
+[2024-12-10 20:49:26.023] Configuration loaded from Configuration.json
+[2024-12-10 20:49:31.714] Ticket Pool initialized with capacity: 25
+----------------------------------------
+[2024-12-10 20:49:31.724] New ticket added to pool: Ticket #710 | Pool size: 1/25
+----------------------------------------
+[2024-12-10 20:49:31.725] New ticket added to pool: Ticket #107 | Pool size: 2/25
+----------------------------------------
+[2024-12-10 20:49:31.726] New ticket added to pool: Ticket #594 | Pool size: 3/25
+----------------------------------------
+[2024-12-10 20:49:31.726] New ticket added to pool: Ticket #64 | Pool size: 4/25
+----------------------------------------
+[2024-12-10 20:49:31.727] New ticket added to pool: Ticket #113 | Pool size: 5/25
+----------------------------------------
+[2024-12-10 20:49:31.728] Ticket #710 sold | Total tickets sold: 1 | Remaining in pool: 4
+----------------------------------------
+[2024-12-10 20:49:31.942] Ticket #107 sold | Total tickets sold: 2 | Remaining in pool: 3
+----------------------------------------
+[2024-12-10 20:49:32.168] Ticket #594 sold | Total tickets sold: 3 | Remaining in pool: 2
+----------------------------------------
+[2024-12-10 20:49:32.378] Ticket #64 sold | Total tickets sold: 4 | Remaining in pool: 1
+----------------------------------------
+[2024-12-10 20:49:32.595] Ticket #113 sold | Total tickets sold: 5 | Remaining in pool: 0
+----------------------------------------
+[2024-12-10 20:49:32.736] New ticket added to pool: Ticket #837 | Pool size: 1/25
+----------------------------------------
+[2024-12-10 20:49:32.736] New ticket added to pool: Ticket #611 | Pool size: 2/25
+----------------------------------------
+[2024-12-10 20:49:32.737] New ticket added to pool: Ticket #35 | Pool size: 3/25
+----------------------------------------
+[2024-12-10 20:49:32.737] New ticket added to pool: Ticket #905 | Pool size: 4/25
+----------------------------------------
+[2024-12-10 20:49:32.738] New ticket added to pool: Ticket #187 | Pool size: 5/25
+----------------------------------------
+[2024-12-10 20:49:32.812] Ticket #837 sold | Total tickets sold: 6 | Remaining in pool: 4
+----------------------------------------
+[2024-12-10 20:49:33.016] Ticket #611 sold | Total tickets sold: 7 | Remaining in pool: 3
+----------------------------------------
+[2024-12-10 20:49:33.233] Ticket #35 sold | Total tickets sold: 8 | Remaining in pool: 2
+----------------------------------------
+[2024-12-10 20:49:33.436] Ticket #905 sold | Total tickets sold: 9 | Remaining in pool: 1
+----------------------------------------
+[2024-12-10 21:20:31.342] Configuration saved to Configuration.json
+[2024-12-10 21:20:31.342] Settings saved to settings.txt
+[2024-12-11 03:49:29.119] Configuration loaded from Configuration.json
+[2024-12-11 21:50:44.599] Configuration loaded from Configuration.json
+[2024-12-11 21:50:52.966] Ticket Pool initialized with capacity: 25
+----------------------------------------
+[2024-12-11 21:50:52.976] New ticket added to pool: Ticket #938 | Pool size: 1/25
+----------------------------------------
+[2024-12-11 21:50:52.977] New ticket added to pool: Ticket #439 | Pool size: 2/25
+----------------------------------------
+[2024-12-11 21:50:52.978] New ticket added to pool: Ticket #925 | Pool size: 3/25
+----------------------------------------
+[2024-12-11 21:50:52.979] New ticket added to pool: Ticket #625 | Pool size: 4/25
+----------------------------------------
+[2024-12-11 21:50:52.979] New ticket added to pool: Ticket #19 | Pool size: 5/25
+----------------------------------------
+[2024-12-11 21:50:52.980] Ticket #938 sold | Total tickets sold: 1 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:50:53.197] Ticket #439 sold | Total tickets sold: 2 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:50:53.400] Ticket #925 sold | Total tickets sold: 3 | Remaining in pool: 2
+----------------------------------------
+[2024-12-11 21:50:53.617] Ticket #625 sold | Total tickets sold: 4 | Remaining in pool: 1
+----------------------------------------
+[2024-12-11 21:50:53.833] Ticket #19 sold | Total tickets sold: 5 | Remaining in pool: 0
+----------------------------------------
+[2024-12-11 21:50:53.988] New ticket added to pool: Ticket #986 | Pool size: 1/25
+----------------------------------------
+[2024-12-11 21:50:53.994] New ticket added to pool: Ticket #881 | Pool size: 2/25
+----------------------------------------
+[2024-12-11 21:50:53.996] New ticket added to pool: Ticket #653 | Pool size: 3/25
+----------------------------------------
+[2024-12-11 21:50:53.996] New ticket added to pool: Ticket #537 | Pool size: 4/25
+----------------------------------------
+[2024-12-11 21:50:53.997] New ticket added to pool: Ticket #110 | Pool size: 5/25
+----------------------------------------
+[2024-12-11 21:50:54.035] Ticket #986 sold | Total tickets sold: 6 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:50:54.239] Ticket #881 sold | Total tickets sold: 7 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:50:54.441] Ticket #653 sold | Total tickets sold: 8 | Remaining in pool: 2
+----------------------------------------
+[2024-12-11 21:50:54.644] Ticket #537 sold | Total tickets sold: 9 | Remaining in pool: 1
+----------------------------------------
+[2024-12-11 21:50:54.846] Ticket #110 sold | Total tickets sold: 10 | Remaining in pool: 0
+----------------------------------------
+[2024-12-11 21:50:54.999] New ticket added to pool: Ticket #877 | Pool size: 1/25
+----------------------------------------
+[2024-12-11 21:50:55.000] New ticket added to pool: Ticket #993 | Pool size: 2/25
+----------------------------------------
+[2024-12-11 21:50:55.001] New ticket added to pool: Ticket #629 | Pool size: 3/25
+----------------------------------------
+[2024-12-11 21:50:55.002] New ticket added to pool: Ticket #618 | Pool size: 4/25
+----------------------------------------
+[2024-12-11 21:50:55.003] New ticket added to pool: Ticket #627 | Pool size: 5/25
+----------------------------------------
+[2024-12-11 21:50:55.063] Ticket #877 sold | Total tickets sold: 11 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:50:55.280] Ticket #993 sold | Total tickets sold: 12 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:50:55.483] Ticket #629 sold | Total tickets sold: 13 | Remaining in pool: 2
+----------------------------------------
+[2024-12-11 21:50:55.700] Ticket #618 sold | Total tickets sold: 14 | Remaining in pool: 1
+----------------------------------------
+[2024-12-11 21:50:55.904] Ticket #627 sold | Total tickets sold: 15 | Remaining in pool: 0
+----------------------------------------
+[2024-12-11 21:50:56.005] New ticket added to pool: Ticket #204 | Pool size: 1/25
+----------------------------------------
+[2024-12-11 21:50:56.005] New ticket added to pool: Ticket #498 | Pool size: 2/25
+----------------------------------------
+[2024-12-11 21:50:56.006] New ticket added to pool: Ticket #593 | Pool size: 3/25
+----------------------------------------
+[2024-12-11 21:50:56.007] New ticket added to pool: Ticket #735 | Pool size: 4/25
+----------------------------------------
+[2024-12-11 21:50:56.007] New ticket added to pool: Ticket #655 | Pool size: 5/25
+----------------------------------------
+[2024-12-11 21:50:56.107] Ticket #204 sold | Total tickets sold: 16 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:50:56.320] Ticket #498 sold | Total tickets sold: 17 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:50:56.526] Ticket #593 sold | Total tickets sold: 18 | Remaining in pool: 2
+----------------------------------------
+[2024-12-11 21:50:56.740] Ticket #735 sold | Total tickets sold: 19 | Remaining in pool: 1
+----------------------------------------
+[2024-12-11 21:50:56.957] Ticket #655 sold | Total tickets sold: 20 | Remaining in pool: 0
+----------------------------------------
+[2024-12-11 21:50:57.018] New ticket added to pool: Ticket #148 | Pool size: 1/25
+----------------------------------------
+[2024-12-11 21:50:57.019] New ticket added to pool: Ticket #730 | Pool size: 2/25
+----------------------------------------
+[2024-12-11 21:50:57.019] New ticket added to pool: Ticket #795 | Pool size: 3/25
+----------------------------------------
+[2024-12-11 21:50:57.020] New ticket added to pool: Ticket #313 | Pool size: 4/25
+----------------------------------------
+[2024-12-11 21:50:57.020] New ticket added to pool: Ticket #700 | Pool size: 5/25
+----------------------------------------
+[2024-12-11 21:50:57.159] Ticket #148 sold | Total tickets sold: 21 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:50:57.375] Ticket #730 sold | Total tickets sold: 22 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:50:57.589] Ticket #795 sold | Total tickets sold: 23 | Remaining in pool: 2
+----------------------------------------
+[2024-12-11 21:50:57.793] Ticket #313 sold | Total tickets sold: 24 | Remaining in pool: 1
+----------------------------------------
+[2024-12-11 21:50:57.995] Ticket #700 sold | Total tickets sold: 25 | Remaining in pool: 0
+----------------------------------------
+[2024-12-11 21:50:58.026] New ticket added to pool: Ticket #550 | Pool size: 1/25
+----------------------------------------
+[2024-12-11 21:50:58.027] New ticket added to pool: Ticket #650 | Pool size: 2/25
+----------------------------------------
+[2024-12-11 21:50:58.028] New ticket added to pool: Ticket #951 | Pool size: 3/25
+----------------------------------------
+[2024-12-11 21:50:58.028] New ticket added to pool: Ticket #373 | Pool size: 4/25
+----------------------------------------
+[2024-12-11 21:50:58.029] New ticket added to pool: Ticket #295 | Pool size: 5/25
+----------------------------------------
+[2024-12-11 21:50:58.197] Ticket #550 sold | Total tickets sold: 26 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:50:58.399] Ticket #650 sold | Total tickets sold: 27 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:50:58.603] Ticket #951 sold | Total tickets sold: 28 | Remaining in pool: 2
+----------------------------------------
+[2024-12-11 21:50:58.818] Ticket #373 sold | Total tickets sold: 29 | Remaining in pool: 1
+----------------------------------------
+[2024-12-11 21:50:59.034] Ticket #295 sold | Total tickets sold: 30 | Remaining in pool: 0
+----------------------------------------
+[2024-12-11 21:50:59.036] New ticket added to pool: Ticket #943 | Pool size: 1/25
+----------------------------------------
+[2024-12-11 21:50:59.037] New ticket added to pool: Ticket #122 | Pool size: 2/25
+----------------------------------------
+[2024-12-11 21:50:59.038] New ticket added to pool: Ticket #812 | Pool size: 3/25
+----------------------------------------
+[2024-12-11 21:50:59.038] New ticket added to pool: Ticket #166 | Pool size: 4/25
+----------------------------------------
+[2024-12-11 21:50:59.040] New ticket added to pool: Ticket #809 | Pool size: 5/25
+----------------------------------------
+[2024-12-11 21:50:59.251] Ticket #943 sold | Total tickets sold: 31 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:50:59.466] Ticket #122 sold | Total tickets sold: 32 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:50:59.683] Ticket #812 sold | Total tickets sold: 33 | Remaining in pool: 2
+----------------------------------------
+[2024-12-11 21:50:59.887] Ticket #166 sold | Total tickets sold: 34 | Remaining in pool: 1
+----------------------------------------
+[2024-12-11 21:51:00.041] New ticket added to pool: Ticket #770 | Pool size: 2/25
+----------------------------------------
+[2024-12-11 21:51:00.042] New ticket added to pool: Ticket #424 | Pool size: 3/25
+----------------------------------------
+[2024-12-11 21:51:00.044] New ticket added to pool: Ticket #989 | Pool size: 4/25
+----------------------------------------
+[2024-12-11 21:51:00.044] New ticket added to pool: Ticket #955 | Pool size: 5/25
+----------------------------------------
+[2024-12-11 21:51:00.044] New ticket added to pool: Ticket #885 | Pool size: 6/25
+----------------------------------------
+[2024-12-11 21:51:00.103] Ticket #809 sold | Total tickets sold: 35 | Remaining in pool: 5
+----------------------------------------
+[2024-12-11 21:51:00.306] Ticket #770 sold | Total tickets sold: 36 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:51:00.520] Ticket #424 sold | Total tickets sold: 37 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:51:00.726] Ticket #989 sold | Total tickets sold: 38 | Remaining in pool: 2
+----------------------------------------
+[2024-12-11 21:51:00.942] Ticket #955 sold | Total tickets sold: 39 | Remaining in pool: 1
+----------------------------------------
+[2024-12-11 21:51:01.053] New ticket added to pool: Ticket #524 | Pool size: 2/25
+----------------------------------------
+[2024-12-11 21:51:01.054] New ticket added to pool: Ticket #286 | Pool size: 3/25
+----------------------------------------
+[2024-12-11 21:51:01.055] New ticket added to pool: Ticket #596 | Pool size: 4/25
+----------------------------------------
+[2024-12-11 21:51:01.055] New ticket added to pool: Ticket #170 | Pool size: 5/25
+----------------------------------------
+[2024-12-11 21:51:01.055] New ticket added to pool: Ticket #636 | Pool size: 6/25
+----------------------------------------
+[2024-12-11 21:51:01.145] Ticket #885 sold | Total tickets sold: 40 | Remaining in pool: 5
+----------------------------------------
+[2024-12-11 21:51:01.361] Ticket #524 sold | Total tickets sold: 41 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:51:01.564] Ticket #286 sold | Total tickets sold: 42 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:51:01.780] Ticket #596 sold | Total tickets sold: 43 | Remaining in pool: 2
+----------------------------------------
+[2024-12-11 21:51:01.982] Ticket #170 sold | Total tickets sold: 44 | Remaining in pool: 1
+----------------------------------------
+[2024-12-11 21:51:02.060] New ticket added to pool: Ticket #232 | Pool size: 2/25
+----------------------------------------
+[2024-12-11 21:51:02.061] New ticket added to pool: Ticket #756 | Pool size: 3/25
+----------------------------------------
+[2024-12-11 21:51:02.062] New ticket added to pool: Ticket #304 | Pool size: 4/25
+----------------------------------------
+[2024-12-11 21:51:02.062] New ticket added to pool: Ticket #17 | Pool size: 5/25
+----------------------------------------
+[2024-12-11 21:51:02.063] New ticket added to pool: Ticket #934 | Pool size: 6/25
+----------------------------------------
+[2024-12-11 21:51:02.186] Ticket #636 sold | Total tickets sold: 45 | Remaining in pool: 5
+----------------------------------------
+[2024-12-11 21:51:02.388] Ticket #232 sold | Total tickets sold: 46 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:51:02.604] Ticket #756 sold | Total tickets sold: 47 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:51:02.820] Ticket #304 sold | Total tickets sold: 48 | Remaining in pool: 2
+----------------------------------------
+[2024-12-11 21:51:03.040] Ticket #17 sold | Total tickets sold: 49 | Remaining in pool: 1
+----------------------------------------
+[2024-12-11 21:51:03.065] New ticket added to pool: Ticket #158 | Pool size: 2/25
+----------------------------------------
+[2024-12-11 21:51:03.066] New ticket added to pool: Ticket #14 | Pool size: 3/25
+----------------------------------------
+[2024-12-11 21:51:03.066] New ticket added to pool: Ticket #547 | Pool size: 4/25
+----------------------------------------
+[2024-12-11 21:51:03.066] New ticket added to pool: Ticket #27 | Pool size: 5/25
+----------------------------------------
+[2024-12-11 21:51:03.068] New ticket added to pool: Ticket #568 | Pool size: 6/25
+----------------------------------------
+[2024-12-11 21:51:03.253] Ticket #934 sold | Total tickets sold: 50 | Remaining in pool: 5
+----------------------------------------
+[2024-12-11 21:51:11.432] Configuration loaded from Configuration.json
+[2024-12-11 21:51:38.455] Configuration saved to Configuration.json
+[2024-12-11 21:51:38.457] Settings saved to settings.txt
+[2024-12-11 21:51:38.457] Ticket Pool initialized with capacity: 50
+----------------------------------------
+[2024-12-11 21:51:38.466] New ticket added to pool: Ticket #835 | Pool size: 1/50
+----------------------------------------
+[2024-12-11 21:51:38.466] New ticket added to pool: Ticket #444 | Pool size: 2/50
+----------------------------------------
+[2024-12-11 21:51:38.467] New ticket added to pool: Ticket #614 | Pool size: 3/50
+----------------------------------------
+[2024-12-11 21:51:38.467] New ticket added to pool: Ticket #726 | Pool size: 4/50
+----------------------------------------
+[2024-12-11 21:51:38.468] New ticket added to pool: Ticket #119 | Pool size: 5/50
+----------------------------------------
+[2024-12-11 21:51:38.468] New ticket added to pool: Ticket #881 | Pool size: 6/50
+----------------------------------------
+[2024-12-11 21:51:38.469] New ticket added to pool: Ticket #163 | Pool size: 7/50
+----------------------------------------
+[2024-12-11 21:51:38.469] New ticket added to pool: Ticket #190 | Pool size: 8/50
+----------------------------------------
+[2024-12-11 21:51:38.470] New ticket added to pool: Ticket #617 | Pool size: 9/50
+----------------------------------------
+[2024-12-11 21:51:38.471] New ticket added to pool: Ticket #463 | Pool size: 10/50
+----------------------------------------
+[2024-12-11 21:51:38.471] Ticket #835 sold | Total tickets sold: 1 | Remaining in pool: 9
+----------------------------------------
+[2024-12-11 21:51:38.577] Ticket #444 sold | Total tickets sold: 2 | Remaining in pool: 8
+----------------------------------------
+[2024-12-11 21:51:38.685] Ticket #614 sold | Total tickets sold: 3 | Remaining in pool: 7
+----------------------------------------
+[2024-12-11 21:51:38.795] Ticket #726 sold | Total tickets sold: 4 | Remaining in pool: 6
+----------------------------------------
+[2024-12-11 21:51:38.903] Ticket #119 sold | Total tickets sold: 5 | Remaining in pool: 5
+----------------------------------------
+[2024-12-11 21:51:39.011] Ticket #881 sold | Total tickets sold: 6 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:51:39.120] Ticket #163 sold | Total tickets sold: 7 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:51:39.228] Ticket #190 sold | Total tickets sold: 8 | Remaining in pool: 2
+----------------------------------------
+[2024-12-11 21:51:39.333] Ticket #617 sold | Total tickets sold: 9 | Remaining in pool: 1
+----------------------------------------
+[2024-12-11 21:51:39.440] Ticket #463 sold | Total tickets sold: 10 | Remaining in pool: 0
+----------------------------------------
+[2024-12-11 21:51:39.472] New ticket added to pool: Ticket #122 | Pool size: 1/50
+----------------------------------------
+[2024-12-11 21:51:39.473] New ticket added to pool: Ticket #278 | Pool size: 2/50
+----------------------------------------
+[2024-12-11 21:51:39.474] New ticket added to pool: Ticket #673 | Pool size: 3/50
+----------------------------------------
+[2024-12-11 21:51:39.474] New ticket added to pool: Ticket #704 | Pool size: 4/50
+----------------------------------------
+[2024-12-11 21:51:39.475] New ticket added to pool: Ticket #609 | Pool size: 5/50
+----------------------------------------
+[2024-12-11 21:51:39.475] New ticket added to pool: Ticket #11 | Pool size: 6/50
+----------------------------------------
+[2024-12-11 21:51:39.476] New ticket added to pool: Ticket #887 | Pool size: 7/50
+----------------------------------------
+[2024-12-11 21:51:39.477] New ticket added to pool: Ticket #106 | Pool size: 8/50
+----------------------------------------
+[2024-12-11 21:51:39.477] New ticket added to pool: Ticket #785 | Pool size: 9/50
+----------------------------------------
+[2024-12-11 21:51:39.478] New ticket added to pool: Ticket #405 | Pool size: 10/50
+----------------------------------------
+[2024-12-11 21:51:39.549] Ticket #122 sold | Total tickets sold: 11 | Remaining in pool: 9
+----------------------------------------
+[2024-12-11 21:51:39.657] Ticket #278 sold | Total tickets sold: 12 | Remaining in pool: 8
+----------------------------------------
+[2024-12-11 21:51:39.767] Ticket #673 sold | Total tickets sold: 13 | Remaining in pool: 7
+----------------------------------------
+[2024-12-11 21:51:39.876] Ticket #704 sold | Total tickets sold: 14 | Remaining in pool: 6
+----------------------------------------
+[2024-12-11 21:51:39.982] Ticket #609 sold | Total tickets sold: 15 | Remaining in pool: 5
+----------------------------------------
+[2024-12-11 21:51:40.090] Ticket #11 sold | Total tickets sold: 16 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:51:40.199] Ticket #887 sold | Total tickets sold: 17 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:51:40.308] Ticket #106 sold | Total tickets sold: 18 | Remaining in pool: 2
+----------------------------------------
+[2024-12-11 21:51:40.416] Ticket #785 sold | Total tickets sold: 19 | Remaining in pool: 1
+----------------------------------------
+[2024-12-11 21:51:40.492] New ticket added to pool: Ticket #928 | Pool size: 2/50
+----------------------------------------
+[2024-12-11 21:51:40.494] New ticket added to pool: Ticket #143 | Pool size: 3/50
+----------------------------------------
+[2024-12-11 21:51:40.494] New ticket added to pool: Ticket #153 | Pool size: 4/50
+----------------------------------------
+[2024-12-11 21:51:40.495] New ticket added to pool: Ticket #745 | Pool size: 5/50
+----------------------------------------
+[2024-12-11 21:51:40.495] New ticket added to pool: Ticket #5 | Pool size: 6/50
+----------------------------------------
+[2024-12-11 21:51:40.496] New ticket added to pool: Ticket #522 | Pool size: 7/50
+----------------------------------------
+[2024-12-11 21:51:40.496] New ticket added to pool: Ticket #334 | Pool size: 8/50
+----------------------------------------
+[2024-12-11 21:51:40.497] New ticket added to pool: Ticket #465 | Pool size: 9/50
+----------------------------------------
+[2024-12-11 21:51:40.497] New ticket added to pool: Ticket #417 | Pool size: 10/50
+----------------------------------------
+[2024-12-11 21:51:40.498] New ticket added to pool: Ticket #339 | Pool size: 11/50
+----------------------------------------
+[2024-12-11 21:51:40.523] Ticket #405 sold | Total tickets sold: 20 | Remaining in pool: 10
+----------------------------------------
+[2024-12-11 21:51:40.633] Ticket #928 sold | Total tickets sold: 21 | Remaining in pool: 9
+----------------------------------------
+[2024-12-11 21:51:40.743] Ticket #143 sold | Total tickets sold: 22 | Remaining in pool: 8
+----------------------------------------
+[2024-12-11 21:51:40.850] Ticket #153 sold | Total tickets sold: 23 | Remaining in pool: 7
+----------------------------------------
+[2024-12-11 21:51:40.960] Ticket #745 sold | Total tickets sold: 24 | Remaining in pool: 6
+----------------------------------------
+[2024-12-11 21:51:41.068] Ticket #5 sold | Total tickets sold: 25 | Remaining in pool: 5
+----------------------------------------
+[2024-12-11 21:51:41.176] Ticket #522 sold | Total tickets sold: 26 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:51:41.285] Ticket #334 sold | Total tickets sold: 27 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:51:41.394] Ticket #465 sold | Total tickets sold: 28 | Remaining in pool: 2
+----------------------------------------
+[2024-12-11 21:51:41.503] Ticket #417 sold | Total tickets sold: 29 | Remaining in pool: 1
+----------------------------------------
+[2024-12-11 21:51:41.503] New ticket added to pool: Ticket #611 | Pool size: 2/50
+----------------------------------------
+[2024-12-11 21:51:41.503] New ticket added to pool: Ticket #102 | Pool size: 3/50
+----------------------------------------
+[2024-12-11 21:51:41.505] New ticket added to pool: Ticket #494 | Pool size: 4/50
+----------------------------------------
+[2024-12-11 21:51:41.505] New ticket added to pool: Ticket #368 | Pool size: 5/50
+----------------------------------------
+[2024-12-11 21:51:41.505] New ticket added to pool: Ticket #838 | Pool size: 6/50
+----------------------------------------
+[2024-12-11 21:51:41.506] New ticket added to pool: Ticket #384 | Pool size: 7/50
+----------------------------------------
+[2024-12-11 21:51:41.506] New ticket added to pool: Ticket #207 | Pool size: 8/50
+----------------------------------------
+[2024-12-11 21:51:41.506] New ticket added to pool: Ticket #548 | Pool size: 9/50
+----------------------------------------
+[2024-12-11 21:51:41.508] New ticket added to pool: Ticket #169 | Pool size: 10/50
+----------------------------------------
+[2024-12-11 21:51:41.509] New ticket added to pool: Ticket #862 | Pool size: 11/50
+----------------------------------------
+[2024-12-11 21:51:41.605] Ticket #339 sold | Total tickets sold: 30 | Remaining in pool: 10
+----------------------------------------
+[2024-12-11 21:51:41.720] Ticket #611 sold | Total tickets sold: 31 | Remaining in pool: 9
+----------------------------------------
+[2024-12-11 21:51:41.829] Ticket #102 sold | Total tickets sold: 32 | Remaining in pool: 8
+----------------------------------------
+[2024-12-11 21:51:41.937] Ticket #494 sold | Total tickets sold: 33 | Remaining in pool: 7
+----------------------------------------
+[2024-12-11 21:51:42.045] Ticket #368 sold | Total tickets sold: 34 | Remaining in pool: 6
+----------------------------------------
+[2024-12-11 21:51:42.153] Ticket #838 sold | Total tickets sold: 35 | Remaining in pool: 5
+----------------------------------------
+[2024-12-11 21:51:42.261] Ticket #384 sold | Total tickets sold: 36 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:51:42.371] Ticket #207 sold | Total tickets sold: 37 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:51:42.480] Ticket #548 sold | Total tickets sold: 38 | Remaining in pool: 2
+----------------------------------------
+[2024-12-11 21:51:42.511] New ticket added to pool: Ticket #689 | Pool size: 3/50
+----------------------------------------
+[2024-12-11 21:51:42.511] New ticket added to pool: Ticket #904 | Pool size: 4/50
+----------------------------------------
+[2024-12-11 21:51:42.512] New ticket added to pool: Ticket #405 | Pool size: 5/50
+----------------------------------------
+[2024-12-11 21:51:42.512] New ticket added to pool: Ticket #694 | Pool size: 6/50
+----------------------------------------
+[2024-12-11 21:51:42.513] New ticket added to pool: Ticket #926 | Pool size: 7/50
+----------------------------------------
+[2024-12-11 21:51:42.513] New ticket added to pool: Ticket #539 | Pool size: 8/50
+----------------------------------------
+[2024-12-11 21:51:42.514] New ticket added to pool: Ticket #674 | Pool size: 9/50
+----------------------------------------
+[2024-12-11 21:51:42.514] New ticket added to pool: Ticket #87 | Pool size: 10/50
+----------------------------------------
+[2024-12-11 21:51:42.514] New ticket added to pool: Ticket #904 | Pool size: 11/50
+----------------------------------------
+[2024-12-11 21:51:42.515] New ticket added to pool: Ticket #51 | Pool size: 12/50
+----------------------------------------
+[2024-12-11 21:51:42.589] Ticket #169 sold | Total tickets sold: 39 | Remaining in pool: 11
+----------------------------------------
+[2024-12-11 21:51:42.699] Ticket #862 sold | Total tickets sold: 40 | Remaining in pool: 10
+----------------------------------------
+[2024-12-11 21:51:42.807] Ticket #689 sold | Total tickets sold: 41 | Remaining in pool: 9
+----------------------------------------
+[2024-12-11 21:51:42.914] Ticket #904 sold | Total tickets sold: 42 | Remaining in pool: 8
+----------------------------------------
+[2024-12-11 21:51:43.021] Ticket #405 sold | Total tickets sold: 43 | Remaining in pool: 7
+----------------------------------------
+[2024-12-11 21:51:43.130] Ticket #694 sold | Total tickets sold: 44 | Remaining in pool: 6
+----------------------------------------
+[2024-12-11 21:51:43.241] Ticket #926 sold | Total tickets sold: 45 | Remaining in pool: 5
+----------------------------------------
+[2024-12-11 21:51:43.349] Ticket #539 sold | Total tickets sold: 46 | Remaining in pool: 4
+----------------------------------------
+[2024-12-11 21:51:43.458] Ticket #674 sold | Total tickets sold: 47 | Remaining in pool: 3
+----------------------------------------
+[2024-12-11 21:51:43.518] New ticket added to pool: Ticket #583 | Pool size: 4/50
+----------------------------------------
+[2024-12-11 21:51:43.519] New ticket added to pool: Ticket #655 | Pool size: 5/50
+----------------------------------------
+[2024-12-11 21:51:43.520] New ticket added to pool: Ticket #592 | Pool size: 6/50
+----------------------------------------
+[2024-12-11 21:51:43.520] New ticket added to pool: Ticket #706 | Pool size: 7/50
+----------------------------------------
+[2024-12-11 21:51:43.521] New ticket added to pool: Ticket #941 | Pool size: 8/50
+----------------------------------------
+[2024-12-11 21:51:43.522] New ticket added to pool: Ticket #433 | Pool size: 9/50
+----------------------------------------
+[2024-12-11 21:51:43.522] New ticket added to pool: Ticket #224 | Pool size: 10/50
+----------------------------------------
+[2024-12-11 21:51:43.523] New ticket added to pool: Ticket #972 | Pool size: 11/50
+----------------------------------------
+[2024-12-11 21:51:43.523] New ticket added to pool: Ticket #651 | Pool size: 12/50
+----------------------------------------
+[2024-12-11 21:51:43.524] New ticket added to pool: Ticket #569 | Pool size: 13/50
+----------------------------------------
+[2024-12-11 21:51:43.564] Ticket #87 sold | Total tickets sold: 48 | Remaining in pool: 12
+----------------------------------------
+[2024-12-11 21:51:43.674] Ticket #904 sold | Total tickets sold: 49 | Remaining in pool: 11
+----------------------------------------
+[2024-12-11 21:51:43.781] Ticket #51 sold | Total tickets sold: 50 | Remaining in pool: 10
+----------------------------------------
+[2024-12-11 21:52:07.796] Configuration saved to Configuration.json
+[2024-12-11 21:52:07.797] Settings saved to settings.txt
+[2024-12-12 05:52:56.415] Configuration loaded from Configuration.json
+[2024-12-12 05:53:24.736] Configuration loaded from Configuration.json
+[2024-12-12 06:01:37.975] Ticket Pool initialized with capacity: 50
+----------------------------------------
+[2024-12-12 06:01:37.981] New ticket added to pool: Ticket #558 | Pool size: 1/50
+----------------------------------------
+[2024-12-12 06:01:37.981] New ticket added to pool: Ticket #480 | Pool size: 2/50
+----------------------------------------
+[2024-12-12 06:01:37.982] New ticket added to pool: Ticket #809 | Pool size: 3/50
+----------------------------------------
+[2024-12-12 06:01:37.982] New ticket added to pool: Ticket #891 | Pool size: 4/50
+----------------------------------------
+[2024-12-12 06:01:37.982] New ticket added to pool: Ticket #973 | Pool size: 5/50
+----------------------------------------
+[2024-12-12 06:01:37.982] New ticket added to pool: Ticket #712 | Pool size: 6/50
+----------------------------------------
+[2024-12-12 06:01:37.983] New ticket added to pool: Ticket #613 | Pool size: 7/50
+----------------------------------------
+[2024-12-12 06:01:37.983] New ticket added to pool: Ticket #411 | Pool size: 8/50
+----------------------------------------
+[2024-12-12 06:01:37.983] New ticket added to pool: Ticket #531 | Pool size: 9/50
+----------------------------------------
+[2024-12-12 06:01:37.984] New ticket added to pool: Ticket #576 | Pool size: 10/50
+----------------------------------------
+[2024-12-12 06:01:37.984] Ticket #558 sold | Total tickets sold: 1 | Remaining in pool: 9
+----------------------------------------
+[2024-12-12 06:01:38.091] Ticket #480 sold | Total tickets sold: 2 | Remaining in pool: 8
+----------------------------------------
+[2024-12-12 06:01:38.200] Ticket #809 sold | Total tickets sold: 3 | Remaining in pool: 7
+----------------------------------------
+[2024-12-12 06:01:38.309] Ticket #891 sold | Total tickets sold: 4 | Remaining in pool: 6
+----------------------------------------
+[2024-12-12 06:01:38.418] Ticket #973 sold | Total tickets sold: 5 | Remaining in pool: 5
+----------------------------------------
+[2024-12-12 06:01:38.525] Ticket #712 sold | Total tickets sold: 6 | Remaining in pool: 4
+----------------------------------------
+[2024-12-12 06:01:38.634] Ticket #613 sold | Total tickets sold: 7 | Remaining in pool: 3
+----------------------------------------
+[2024-12-12 06:01:38.745] Ticket #411 sold | Total tickets sold: 8 | Remaining in pool: 2
+----------------------------------------
+[2024-12-12 06:01:38.852] Ticket #531 sold | Total tickets sold: 9 | Remaining in pool: 1
+----------------------------------------
+[2024-12-12 06:01:38.961] Ticket #576 sold | Total tickets sold: 10 | Remaining in pool: 0
+----------------------------------------
+[2024-12-12 06:01:38.992] New ticket added to pool: Ticket #810 | Pool size: 1/50
+----------------------------------------
+[2024-12-12 06:01:38.994] New ticket added to pool: Ticket #891 | Pool size: 2/50
+----------------------------------------
+[2024-12-12 06:01:38.994] New ticket added to pool: Ticket #846 | Pool size: 3/50
+----------------------------------------
+[2024-12-12 06:01:38.995] New ticket added to pool: Ticket #494 | Pool size: 4/50
+----------------------------------------
+[2024-12-12 06:01:38.995] New ticket added to pool: Ticket #319 | Pool size: 5/50
+----------------------------------------
+[2024-12-12 06:01:38.995] New ticket added to pool: Ticket #893 | Pool size: 6/50
+----------------------------------------
+[2024-12-12 06:01:38.995] New ticket added to pool: Ticket #486 | Pool size: 7/50
+----------------------------------------
+[2024-12-12 06:01:38.996] New ticket added to pool: Ticket #337 | Pool size: 8/50
+----------------------------------------
+[2024-12-12 06:01:38.996] New ticket added to pool: Ticket #744 | Pool size: 9/50
+----------------------------------------
+[2024-12-12 06:01:38.996] New ticket added to pool: Ticket #290 | Pool size: 10/50
+----------------------------------------
+[2024-12-12 06:01:39.071] Ticket #810 sold | Total tickets sold: 11 | Remaining in pool: 9
+----------------------------------------
+[2024-12-12 06:01:39.180] Ticket #891 sold | Total tickets sold: 12 | Remaining in pool: 8
+----------------------------------------
+[2024-12-12 06:01:39.289] Ticket #846 sold | Total tickets sold: 13 | Remaining in pool: 7
+----------------------------------------
+[2024-12-12 06:01:39.398] Ticket #494 sold | Total tickets sold: 14 | Remaining in pool: 6
+----------------------------------------
+[2024-12-12 06:01:39.506] Ticket #319 sold | Total tickets sold: 15 | Remaining in pool: 5
+----------------------------------------
+[2024-12-12 06:01:39.615] Ticket #893 sold | Total tickets sold: 16 | Remaining in pool: 4
+----------------------------------------
+[2024-12-12 06:01:39.722] Ticket #486 sold | Total tickets sold: 17 | Remaining in pool: 3
+----------------------------------------
+[2024-12-12 06:01:39.831] Ticket #337 sold | Total tickets sold: 18 | Remaining in pool: 2
+----------------------------------------
+[2024-12-12 06:01:39.942] Ticket #744 sold | Total tickets sold: 19 | Remaining in pool: 1
+----------------------------------------
+[2024-12-12 06:01:40.002] New ticket added to pool: Ticket #64 | Pool size: 2/50
+----------------------------------------
+[2024-12-12 06:01:40.003] New ticket added to pool: Ticket #806 | Pool size: 3/50
+----------------------------------------
+[2024-12-12 06:01:40.003] New ticket added to pool: Ticket #173 | Pool size: 4/50
+----------------------------------------
+[2024-12-12 06:01:40.003] New ticket added to pool: Ticket #160 | Pool size: 5/50
+----------------------------------------
+[2024-12-12 06:01:40.003] New ticket added to pool: Ticket #50 | Pool size: 6/50
+----------------------------------------
+[2024-12-12 06:01:40.005] New ticket added to pool: Ticket #444 | Pool size: 7/50
+----------------------------------------
+[2024-12-12 06:01:40.005] New ticket added to pool: Ticket #172 | Pool size: 8/50
+----------------------------------------
+[2024-12-12 06:01:40.005] New ticket added to pool: Ticket #480 | Pool size: 9/50
+----------------------------------------
+[2024-12-12 06:01:40.005] New ticket added to pool: Ticket #597 | Pool size: 10/50
+----------------------------------------
+[2024-12-12 06:01:40.006] New ticket added to pool: Ticket #767 | Pool size: 11/50
+----------------------------------------
+[2024-12-12 06:01:40.049] Ticket #290 sold | Total tickets sold: 20 | Remaining in pool: 10
+----------------------------------------
+[2024-12-12 06:01:40.156] Ticket #64 sold | Total tickets sold: 21 | Remaining in pool: 9
+----------------------------------------
+[2024-12-12 06:01:40.263] Ticket #806 sold | Total tickets sold: 22 | Remaining in pool: 8
+----------------------------------------
+[2024-12-12 06:01:40.371] Ticket #173 sold | Total tickets sold: 23 | Remaining in pool: 7
+----------------------------------------
+[2024-12-12 06:01:40.480] Ticket #160 sold | Total tickets sold: 24 | Remaining in pool: 6
+----------------------------------------
+[2024-12-12 06:01:40.589] Ticket #50 sold | Total tickets sold: 25 | Remaining in pool: 5
+----------------------------------------
+[2024-12-12 06:01:40.697] Ticket #444 sold | Total tickets sold: 26 | Remaining in pool: 4
+----------------------------------------
+[2024-12-12 06:01:40.807] Ticket #172 sold | Total tickets sold: 27 | Remaining in pool: 3
+----------------------------------------
+[2024-12-12 06:01:40.916] Ticket #480 sold | Total tickets sold: 28 | Remaining in pool: 2
+----------------------------------------
+[2024-12-12 06:01:41.010] New ticket added to pool: Ticket #467 | Pool size: 3/50
+----------------------------------------
+[2024-12-12 06:01:41.010] New ticket added to pool: Ticket #344 | Pool size: 4/50
+----------------------------------------
+[2024-12-12 06:01:41.011] New ticket added to pool: Ticket #154 | Pool size: 5/50
+----------------------------------------
+[2024-12-12 06:01:41.011] New ticket added to pool: Ticket #840 | Pool size: 6/50
+----------------------------------------
+[2024-12-12 06:01:41.011] New ticket added to pool: Ticket #558 | Pool size: 7/50
+----------------------------------------
+[2024-12-12 06:01:41.011] New ticket added to pool: Ticket #121 | Pool size: 8/50
+----------------------------------------
+[2024-12-12 06:01:41.012] New ticket added to pool: Ticket #882 | Pool size: 9/50
+----------------------------------------
+[2024-12-12 06:01:41.012] New ticket added to pool: Ticket #497 | Pool size: 10/50
+----------------------------------------
+[2024-12-12 06:01:41.012] New ticket added to pool: Ticket #502 | Pool size: 11/50
+----------------------------------------
+[2024-12-12 06:01:41.013] New ticket added to pool: Ticket #268 | Pool size: 12/50
+----------------------------------------
+[2024-12-12 06:01:41.025] Ticket #597 sold | Total tickets sold: 29 | Remaining in pool: 11
+----------------------------------------
+[2024-12-12 06:01:41.133] Ticket #767 sold | Total tickets sold: 30 | Remaining in pool: 10
+----------------------------------------
+[2024-12-12 06:01:41.241] Ticket #467 sold | Total tickets sold: 31 | Remaining in pool: 9
+----------------------------------------
+[2024-12-12 06:01:41.348] Ticket #344 sold | Total tickets sold: 32 | Remaining in pool: 8
+----------------------------------------
+[2024-12-12 06:01:41.458] Ticket #154 sold | Total tickets sold: 33 | Remaining in pool: 7
+----------------------------------------
+[2024-12-12 06:01:41.565] Ticket #840 sold | Total tickets sold: 34 | Remaining in pool: 6
+----------------------------------------
+[2024-12-12 06:01:41.674] Ticket #558 sold | Total tickets sold: 35 | Remaining in pool: 5
+----------------------------------------
+[2024-12-12 06:01:41.784] Ticket #121 sold | Total tickets sold: 36 | Remaining in pool: 4
+----------------------------------------
+[2024-12-12 06:01:41.892] Ticket #882 sold | Total tickets sold: 37 | Remaining in pool: 3
+----------------------------------------
+[2024-12-12 06:01:42.003] Ticket #497 sold | Total tickets sold: 38 | Remaining in pool: 2
+----------------------------------------
+[2024-12-12 06:01:42.018] New ticket added to pool: Ticket #920 | Pool size: 3/50
+----------------------------------------
+[2024-12-12 06:01:42.018] New ticket added to pool: Ticket #246 | Pool size: 4/50
+----------------------------------------
+[2024-12-12 06:01:42.018] New ticket added to pool: Ticket #414 | Pool size: 5/50
+----------------------------------------
+[2024-12-12 06:01:42.019] New ticket added to pool: Ticket #225 | Pool size: 6/50
+----------------------------------------
+[2024-12-12 06:01:42.019] New ticket added to pool: Ticket #378 | Pool size: 7/50
+----------------------------------------
+[2024-12-12 06:01:42.019] New ticket added to pool: Ticket #856 | Pool size: 8/50
+----------------------------------------
+[2024-12-12 06:01:42.019] New ticket added to pool: Ticket #829 | Pool size: 9/50
+----------------------------------------
+[2024-12-12 06:01:42.020] New ticket added to pool: Ticket #165 | Pool size: 10/50
+----------------------------------------
+[2024-12-12 06:01:42.020] New ticket added to pool: Ticket #500 | Pool size: 11/50
+----------------------------------------
+[2024-12-12 06:01:42.020] New ticket added to pool: Ticket #535 | Pool size: 12/50
+----------------------------------------
+[2024-12-12 06:01:42.110] Ticket #502 sold | Total tickets sold: 39 | Remaining in pool: 11
+----------------------------------------
+[2024-12-12 06:01:42.219] Ticket #268 sold | Total tickets sold: 40 | Remaining in pool: 10
+----------------------------------------
+[2024-12-12 06:01:42.328] Ticket #920 sold | Total tickets sold: 41 | Remaining in pool: 9
+----------------------------------------
+[2024-12-12 06:01:42.435] Ticket #246 sold | Total tickets sold: 42 | Remaining in pool: 8
+----------------------------------------
+[2024-12-12 06:01:42.544] Ticket #414 sold | Total tickets sold: 43 | Remaining in pool: 7
+----------------------------------------
+[2024-12-12 06:01:42.653] Ticket #225 sold | Total tickets sold: 44 | Remaining in pool: 6
+----------------------------------------
+[2024-12-12 06:01:42.761] Ticket #378 sold | Total tickets sold: 45 | Remaining in pool: 5
+----------------------------------------
+[2024-12-12 06:01:42.870] Ticket #856 sold | Total tickets sold: 46 | Remaining in pool: 4
+----------------------------------------
+[2024-12-12 06:01:42.979] Ticket #829 sold | Total tickets sold: 47 | Remaining in pool: 3
+----------------------------------------
+[2024-12-12 06:01:43.025] New ticket added to pool: Ticket #888 | Pool size: 4/50
+----------------------------------------
+[2024-12-12 06:01:43.025] New ticket added to pool: Ticket #196 | Pool size: 5/50
+----------------------------------------
+[2024-12-12 06:01:43.026] New ticket added to pool: Ticket #846 | Pool size: 6/50
+----------------------------------------
+[2024-12-12 06:01:43.026] New ticket added to pool: Ticket #620 | Pool size: 7/50
+----------------------------------------
+[2024-12-12 06:01:43.026] New ticket added to pool: Ticket #493 | Pool size: 8/50
+----------------------------------------
+[2024-12-12 06:01:43.026] New ticket added to pool: Ticket #979 | Pool size: 9/50
+----------------------------------------
+[2024-12-12 06:01:43.027] New ticket added to pool: Ticket #476 | Pool size: 10/50
+----------------------------------------
+[2024-12-12 06:01:43.027] New ticket added to pool: Ticket #680 | Pool size: 11/50
+----------------------------------------
+[2024-12-12 06:01:43.027] New ticket added to pool: Ticket #978 | Pool size: 12/50
+----------------------------------------
+[2024-12-12 06:01:43.027] New ticket added to pool: Ticket #625 | Pool size: 13/50
+----------------------------------------
+[2024-12-12 06:01:43.087] Ticket #165 sold | Total tickets sold: 48 | Remaining in pool: 12
+----------------------------------------
+[2024-12-12 06:01:43.196] Ticket #500 sold | Total tickets sold: 49 | Remaining in pool: 11
+----------------------------------------
+[2024-12-12 06:01:43.304] Ticket #535 sold | Total tickets sold: 50 | Remaining in pool: 10
+----------------------------------------
+[2024-12-12 06:01:43.413] Ticket #888 sold | Total tickets sold: 51 | Remaining in pool: 9
+----------------------------------------
+[2024-12-12 06:01:43.520] Ticket #196 sold | Total tickets sold: 52 | Remaining in pool: 8
+----------------------------------------
+[2024-12-12 06:01:43.629] Ticket #846 sold | Total tickets sold: 53 | Remaining in pool: 7
+----------------------------------------
+[2024-12-12 06:01:43.736] Ticket #620 sold | Total tickets sold: 54 | Remaining in pool: 6
+----------------------------------------
+[2024-12-12 06:01:43.844] Ticket #493 sold | Total tickets sold: 55 | Remaining in pool: 5
+----------------------------------------
+[2024-12-12 06:01:43.953] Ticket #979 sold | Total tickets sold: 56 | Remaining in pool: 4
+----------------------------------------
+[2024-12-12 06:01:44.031] New ticket added to pool: Ticket #73 | Pool size: 5/50
+----------------------------------------
+[2024-12-12 06:01:44.031] New ticket added to pool: Ticket #977 | Pool size: 6/50
+----------------------------------------
+[2024-12-12 06:01:44.032] New ticket added to pool: Ticket #555 | Pool size: 7/50
+----------------------------------------
+[2024-12-12 06:01:44.032] New ticket added to pool: Ticket #174 | Pool size: 8/50
+----------------------------------------
+[2024-12-12 06:01:44.032] New ticket added to pool: Ticket #651 | Pool size: 9/50
+----------------------------------------
+[2024-12-12 06:01:44.033] New ticket added to pool: Ticket #326 | Pool size: 10/50
+----------------------------------------
+[2024-12-12 06:01:44.033] New ticket added to pool: Ticket #766 | Pool size: 11/50
+----------------------------------------
+[2024-12-12 06:01:44.033] New ticket added to pool: Ticket #909 | Pool size: 12/50
+----------------------------------------
+[2024-12-12 06:01:44.033] New ticket added to pool: Ticket #7 | Pool size: 13/50
+----------------------------------------
+[2024-12-12 06:01:44.034] New ticket added to pool: Ticket #466 | Pool size: 14/50
+----------------------------------------
+[2024-12-12 06:01:44.062] Ticket #476 sold | Total tickets sold: 57 | Remaining in pool: 13
+----------------------------------------
+[2024-12-12 06:01:44.171] Ticket #680 sold | Total tickets sold: 58 | Remaining in pool: 12
+----------------------------------------
+[2024-12-12 06:01:44.279] Ticket #978 sold | Total tickets sold: 59 | Remaining in pool: 11
+----------------------------------------
+[2024-12-12 06:01:44.388] Ticket #625 sold | Total tickets sold: 60 | Remaining in pool: 10
+----------------------------------------
+[2024-12-12 06:01:44.497] Ticket #73 sold | Total tickets sold: 61 | Remaining in pool: 9
+----------------------------------------
+[2024-12-12 06:01:44.606] Ticket #977 sold | Total tickets sold: 62 | Remaining in pool: 8
+----------------------------------------
+[2024-12-12 06:01:44.715] Ticket #555 sold | Total tickets sold: 63 | Remaining in pool: 7
+----------------------------------------
+[2024-12-12 06:01:44.825] Ticket #174 sold | Total tickets sold: 64 | Remaining in pool: 6
+----------------------------------------
+[2024-12-12 06:01:44.934] Ticket #651 sold | Total tickets sold: 65 | Remaining in pool: 5
+----------------------------------------
+[2024-12-12 06:01:45.040] New ticket added to pool: Ticket #458 | Pool size: 6/50
+----------------------------------------
+[2024-12-12 06:01:45.041] New ticket added to pool: Ticket #254 | Pool size: 7/50
+----------------------------------------
+[2024-12-12 06:01:45.041] New ticket added to pool: Ticket #339 | Pool size: 8/50
+----------------------------------------
+[2024-12-12 06:01:45.041] New ticket added to pool: Ticket #202 | Pool size: 9/50
+----------------------------------------
+[2024-12-12 06:01:45.042] New ticket added to pool: Ticket #337 | Pool size: 10/50
+----------------------------------------
+[2024-12-12 06:01:45.042] New ticket added to pool: Ticket #31 | Pool size: 11/50
+----------------------------------------
+[2024-12-12 06:01:45.042] New ticket added to pool: Ticket #540 | Pool size: 12/50
+----------------------------------------
+[2024-12-12 06:01:45.042] New ticket added to pool: Ticket #750 | Pool size: 13/50
+----------------------------------------
+[2024-12-12 06:01:45.043] New ticket added to pool: Ticket #980 | Pool size: 14/50
+----------------------------------------
+[2024-12-12 06:01:45.043] New ticket added to pool: Ticket #423 | Pool size: 15/50
+----------------------------------------
+[2024-12-12 06:01:45.043] Ticket #326 sold | Total tickets sold: 66 | Remaining in pool: 14
+----------------------------------------
+[2024-12-12 06:01:45.147] Ticket #766 sold | Total tickets sold: 67 | Remaining in pool: 13
+----------------------------------------
+[2024-12-12 06:01:45.255] Ticket #909 sold | Total tickets sold: 68 | Remaining in pool: 12
+----------------------------------------
+[2024-12-12 06:01:45.363] Ticket #7 sold | Total tickets sold: 69 | Remaining in pool: 11
+----------------------------------------
+[2024-12-12 06:01:45.472] Ticket #466 sold | Total tickets sold: 70 | Remaining in pool: 10
+----------------------------------------
+[2024-12-12 06:01:45.580] Ticket #458 sold | Total tickets sold: 71 | Remaining in pool: 9
+----------------------------------------
+[2024-12-12 06:01:45.687] Ticket #254 sold | Total tickets sold: 72 | Remaining in pool: 8
+----------------------------------------
+[2024-12-12 06:01:45.795] Ticket #339 sold | Total tickets sold: 73 | Remaining in pool: 7
+----------------------------------------
+[2024-12-12 06:01:45.902] Ticket #202 sold | Total tickets sold: 74 | Remaining in pool: 6
+----------------------------------------
+[2024-12-12 06:01:46.010] Ticket #337 sold | Total tickets sold: 75 | Remaining in pool: 5
+----------------------------------------
+[2024-12-12 06:01:46.044] New ticket added to pool: Ticket #503 | Pool size: 6/50
+----------------------------------------
+[2024-12-12 06:01:46.044] New ticket added to pool: Ticket #897 | Pool size: 7/50
+----------------------------------------
+[2024-12-12 06:01:46.045] New ticket added to pool: Ticket #299 | Pool size: 8/50
+----------------------------------------
+[2024-12-12 06:01:46.045] New ticket added to pool: Ticket #31 | Pool size: 9/50
+----------------------------------------
+[2024-12-12 06:01:46.045] New ticket added to pool: Ticket #401 | Pool size: 10/50
+----------------------------------------
+[2024-12-12 06:01:46.046] New ticket added to pool: Ticket #832 | Pool size: 11/50
+----------------------------------------
+[2024-12-12 06:01:46.046] New ticket added to pool: Ticket #853 | Pool size: 12/50
+----------------------------------------
+[2024-12-12 06:01:46.046] New ticket added to pool: Ticket #93 | Pool size: 13/50
+----------------------------------------
+[2024-12-12 06:01:46.047] New ticket added to pool: Ticket #332 | Pool size: 14/50
+----------------------------------------
+[2024-12-12 06:01:46.047] New ticket added to pool: Ticket #749 | Pool size: 15/50
+----------------------------------------
+[2024-12-12 06:01:46.119] Ticket #31 sold | Total tickets sold: 76 | Remaining in pool: 14
+----------------------------------------
+[2024-12-12 06:01:46.225] Ticket #540 sold | Total tickets sold: 77 | Remaining in pool: 13
+----------------------------------------
+[2024-12-12 06:01:46.331] Ticket #750 sold | Total tickets sold: 78 | Remaining in pool: 12
+----------------------------------------
+[2024-12-12 06:01:46.440] Ticket #980 sold | Total tickets sold: 79 | Remaining in pool: 11
+----------------------------------------
+[2024-12-12 06:01:46.549] Ticket #423 sold | Total tickets sold: 80 | Remaining in pool: 10
+----------------------------------------
+[2024-12-12 06:01:46.658] Ticket #503 sold | Total tickets sold: 81 | Remaining in pool: 9
+----------------------------------------
+[2024-12-12 06:01:46.765] Ticket #897 sold | Total tickets sold: 82 | Remaining in pool: 8
+----------------------------------------
+[2024-12-12 06:01:46.875] Ticket #299 sold | Total tickets sold: 83 | Remaining in pool: 7
+----------------------------------------
+[2024-12-12 06:01:46.982] Ticket #31 sold | Total tickets sold: 84 | Remaining in pool: 6
+----------------------------------------
+[2024-12-12 06:01:47.061] New ticket added to pool: Ticket #53 | Pool size: 7/50
+----------------------------------------
+[2024-12-12 06:01:47.061] New ticket added to pool: Ticket #23 | Pool size: 8/50
+----------------------------------------
+[2024-12-12 06:01:47.061] New ticket added to pool: Ticket #876 | Pool size: 9/50
+----------------------------------------
+[2024-12-12 06:01:47.061] New ticket added to pool: Ticket #618 | Pool size: 10/50
+----------------------------------------
+[2024-12-12 06:01:47.062] New ticket added to pool: Ticket #292 | Pool size: 11/50
+----------------------------------------
+[2024-12-12 06:01:47.062] New ticket added to pool: Ticket #161 | Pool size: 12/50
+----------------------------------------
+[2024-12-12 06:01:47.062] New ticket added to pool: Ticket #109 | Pool size: 13/50
+----------------------------------------
+[2024-12-12 06:01:47.063] New ticket added to pool: Ticket #852 | Pool size: 14/50
+----------------------------------------
+[2024-12-12 06:01:47.063] New ticket added to pool: Ticket #229 | Pool size: 15/50
+----------------------------------------
+[2024-12-12 06:01:47.063] New ticket added to pool: Ticket #793 | Pool size: 16/50
+----------------------------------------
+[2024-12-12 06:01:47.092] Ticket #401 sold | Total tickets sold: 85 | Remaining in pool: 15
+----------------------------------------
+[2024-12-12 06:01:47.201] Ticket #832 sold | Total tickets sold: 86 | Remaining in pool: 14
+----------------------------------------
+[2024-12-12 06:01:47.310] Ticket #853 sold | Total tickets sold: 87 | Remaining in pool: 13
+----------------------------------------
+[2024-12-12 06:01:47.418] Ticket #93 sold | Total tickets sold: 88 | Remaining in pool: 12
+----------------------------------------
+[2024-12-12 06:01:47.528] Ticket #332 sold | Total tickets sold: 89 | Remaining in pool: 11
+----------------------------------------
+[2024-12-12 06:01:47.637] Ticket #749 sold | Total tickets sold: 90 | Remaining in pool: 10
+----------------------------------------
+[2024-12-12 06:01:47.745] Ticket #53 sold | Total tickets sold: 91 | Remaining in pool: 9
+----------------------------------------
+[2024-12-12 06:01:47.853] Ticket #23 sold | Total tickets sold: 92 | Remaining in pool: 8
+----------------------------------------
+[2024-12-12 06:01:47.962] Ticket #876 sold | Total tickets sold: 93 | Remaining in pool: 7
+----------------------------------------
+[2024-12-12 06:01:48.066] New ticket added to pool: Ticket #350 | Pool size: 8/50
+----------------------------------------
+[2024-12-12 06:01:48.066] New ticket added to pool: Ticket #928 | Pool size: 9/50
+----------------------------------------
+[2024-12-12 06:01:48.066] New ticket added to pool: Ticket #7 | Pool size: 10/50
+----------------------------------------
+[2024-12-12 06:01:48.066] New ticket added to pool: Ticket #269 | Pool size: 11/50
+----------------------------------------
+[2024-12-12 06:01:48.066] New ticket added to pool: Ticket #467 | Pool size: 12/50
+----------------------------------------
+[2024-12-12 06:01:48.068] New ticket added to pool: Ticket #429 | Pool size: 13/50
+----------------------------------------
+[2024-12-12 06:01:48.068] New ticket added to pool: Ticket #959 | Pool size: 14/50
+----------------------------------------
+[2024-12-12 06:01:48.068] New ticket added to pool: Ticket #318 | Pool size: 15/50
+----------------------------------------
+[2024-12-12 06:01:48.069] New ticket added to pool: Ticket #866 | Pool size: 16/50
+----------------------------------------
+[2024-12-12 06:01:48.069] New ticket added to pool: Ticket #363 | Pool size: 17/50
+----------------------------------------
+[2024-12-12 06:01:48.071] Ticket #618 sold | Total tickets sold: 94 | Remaining in pool: 16
+----------------------------------------
+[2024-12-12 06:01:48.179] Ticket #292 sold | Total tickets sold: 95 | Remaining in pool: 15
+----------------------------------------
+[2024-12-12 06:01:48.289] Ticket #161 sold | Total tickets sold: 96 | Remaining in pool: 14
+----------------------------------------
+[2024-12-12 06:01:48.398] Ticket #109 sold | Total tickets sold: 97 | Remaining in pool: 13
+----------------------------------------
+[2024-12-12 06:01:48.506] Ticket #852 sold | Total tickets sold: 98 | Remaining in pool: 12
+----------------------------------------
+[2024-12-12 06:01:48.616] Ticket #229 sold | Total tickets sold: 99 | Remaining in pool: 11
+----------------------------------------
+[2024-12-12 06:01:48.725] Ticket #793 sold | Total tickets sold: 100 | Remaining in pool: 10
+----------------------------------------
+[2024-12-12 06:05:32.414] Configuration loaded from Configuration.json
+[2024-12-12 06:06:17.057] Configuration saved to Configuration.json
+[2024-12-12 06:06:17.058] Settings saved to settings.txt

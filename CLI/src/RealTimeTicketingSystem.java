@@ -25,6 +25,7 @@ public class RealTimeTicketingSystem {
         }));
 
         while (true) {  // Loop to display the menu after the system stops
+            System.out.println("\n************* Real Time Ticket Booking System*************");
             System.out.println("\nMain Menu:");
             System.out.println("1. Configure System");
             System.out.println("2. Exit");
@@ -113,7 +114,7 @@ public class RealTimeTicketingSystem {
         int maxTicketCapacity;
 
         while (true) {
-            maxTicketCapacity = getPositiveIntInput(scanner, "Enter maximum ticket pool capacity: ");
+            maxTicketCapacity = getPositiveIntInput(scanner, "Enter maximum ticket pool capacity (Below amount than total tickets): ");
             if (maxTicketCapacity <= totalTickets) {
                 break;
             } else {

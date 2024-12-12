@@ -1,5 +1,5 @@
-Settings Last Updated: 2024-12-07 17:37:03.989
-Total Tickets: 50
-Ticket Release Rate: 5 tickets/second
-Customer Retrieval Rate: 5 tickets/second
-Max Ticket Pool Capacity: 25
+Settings Last Updated: 2024-12-12 06:06:17.058
+Total Tickets: 100
+Ticket Release Rate: 10 tickets/second
+Customer Retrieval Rate: 10 tickets/second
+Max Ticket Pool Capacity: 50

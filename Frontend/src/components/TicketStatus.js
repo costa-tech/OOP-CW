@@ -1,5 +1,4 @@
-import { createElement as e } from 'react';
-import '../styles/TicketStatus.css';
+import React from 'react';
 
 function TicketStatus({ availableTickets, soldTickets, capacity }) {
   const getCapacityColor = (cap) => {
@@ -8,23 +7,23 @@ function TicketStatus({ availableTickets, soldTickets, capacity }) {
     return '#e74c3c'; // Red
   };
 
-  return e('div', { className: 'ticket-status' },
-    e('h2', null, 'System Status'),
-    e('div', { className: 'status-info' },
-      e('div', { className: 'status-card' },
-        e('h3', null, 'Available Tickets'),
-        e('div', { className: 'status-value' }, availableTickets)
+  return React.createElement('div', { className: 'ticket-status' },
+    React.createElement('h2', null, 'System Status'),
+    React.createElement('div', { className: 'status-info' },
+      React.createElement('div', { className: 'status-card' },
+        React.createElement('h3', null, 'Available Tickets'),
+        React.createElement('div', { className: 'status-value' }, availableTickets)
       ),
-      e('div', { className: 'status-card' },
-        e('h3', null, 'Sold Tickets'),
-        e('div', { className: 'status-value' }, soldTickets)
+      React.createElement('div', { className: 'status-card' },
+        React.createElement('h3', null, 'Sold Tickets'),
+        React.createElement('div', { className: 'status-value' }, soldTickets)
       )
     ),
     
-    e('div', { className: 'capacity-section' },
-      e('h3', null, 'System Capacity'),
-      e('div', { className: 'capacity-bar' },
-        e('div', {
+    React.createElement('div', { className: 'capacity-section' },
+      React.createElement('h3', null, 'System Capacity'),
+      React.createElement('div', { className: 'capacity-bar' },
+        React.createElement('div', {
           className: 'capacity-fill',
           style: {
             width: `${Math.min(100, capacity)}%`,
@@ -32,7 +31,7 @@ function TicketStatus({ availableTickets, soldTickets, capacity }) {
           }
         })
       ),
-      e('div', { className: 'capacity-text' },
+      React.createElement('div', { className: 'capacity-text' },
         `${capacity.toFixed(1)}% Used`
       )
     )

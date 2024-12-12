@@ -6,8 +6,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 import java.util.stream.Collectors;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import javax.annotation.PreDestroy;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.stereotype.Service;
 import com.example.ticketingsystem.model.TicketPool;
 import com.example.ticketingsystem.thread.Customer;
@@ -15,6 +18,7 @@ import com.example.ticketingsystem.thread.Vendor;
 import com.example.ticketingsystem.model.Configuration;
 
 @Service
+@EnableScheduling
 public class TicketingService {
 
     private TicketPool ticketPool;
@@ -22,6 +26,8 @@ public class TicketingService {
     private final List<Customer> customers;
     private boolean systemRunning = false;
     private Configuration configuration;
+    private final List<Map<String, Object>> systemLogs;
+    private final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
     @Autowired
     public TicketingService(TicketPool ticketPool) {
@@ -29,6 +35,41 @@ public class TicketingService {
         this.vendors = new ArrayList<>();
         this.customers = new ArrayList<>();
         this.configuration = new Configuration();
+        this.systemLogs = new ArrayList<>();
+        addLog("System initialized", "system_status");
+    }
+
+    private void addLog(String message, String type) {
+        Map<String, Object> log = new HashMap<>();
+        log.put("timestamp", LocalDateTime.now().format(formatter));
+        log.put("type", type);
+        log.put("message", message);
+        systemLogs.add(0, log); // Add to the beginning of the list
+        
+        // Keep only the last 100 logs
+        if (systemLogs.size() > 100) {
+            systemLogs.remove(systemLogs.size() - 1);
+        }
+    }
+
+    private void addTicketLog(int ticketAmount, String actorId, String type) {
+        Map<String, Object> log = new HashMap<>();
+        log.put("timestamp", LocalDateTime.now().format(formatter));
+        log.put("type", type);
+        log.put("ticketAmount", ticketAmount);
+        log.put("actorId", actorId);
+        log.put("message", type.equals("ticket_added") ? 
+                String.format("Vendor added %d ticket(s) to the pool", ticketAmount) :
+                String.format("Customer bought %d ticket(s)", ticketAmount));
+        systemLogs.add(0, log);
+        
+        if (systemLogs.size() > 100) {
+            systemLogs.remove(systemLogs.size() - 1);
+        }
+    }
+
+    public List<Map<String, Object>> getLogs() {
+        return new ArrayList<>(systemLogs);
     }
 
     // Start a new vendor thread
@@ -37,25 +78,46 @@ public class TicketingService {
         Vendor vendor = new Vendor(ticketPool, vendorId);
         vendors.add(vendor);
         vendor.start();
+        // Wait for the vendor to add tickets
+        try {
+            Thread.sleep(2000); // Ensure some tickets are added before logging
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+        int ticketsAdded = vendor.getTicketsAdded();
+        addTicketLog(ticketsAdded, vendorId, "ticket_added");
+        addLog("Started new vendor: " + vendorId, "system_status");
     }
 
     // Start a new customer thread
     public void startCustomer() {
+        String customerId = "C-" + UUID.randomUUID().toString().substring(0, 8);
         Customer customer = new Customer(ticketPool);
         customers.add(customer);
         customer.start();
+        // Wait for the customer to purchase tickets
+        try {
+            Thread.sleep(1000); // Ensure some tickets are purchased before logging
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+        int ticketsBought = customer.getTicketsPurchased();
+        addTicketLog(ticketsBought, customerId, "ticket_sold");
+        addLog("Started new customer: " + customerId, "system_status");
     }
 
     // Stop all vendor threads
     public void stopVendors() {
         vendors.forEach(Vendor::stopVendor);
         vendors.clear();
+        addLog("All vendors stopped", "system_status");
     }
 
     // Stop all customer threads
     public void stopCustomers() {
         customers.forEach(Customer::stopCustomer);
         customers.clear();
+        addLog("All customers stopped", "system_status");
     }
 
     // Get current ticket count
@@ -77,6 +139,7 @@ public class TicketingService {
     public int getActiveCustomerCount() {
         return customers.size();
     }
+    
 
     // Get detailed system statistics
     public Map<String, Object> getDetailedStatus() {
@@ -108,20 +171,46 @@ public class TicketingService {
         }
 
         // Validate input parameters
-        if (totalTickets != null && totalTickets < 0) {
-            throw new IllegalArgumentException("Total tickets cannot be negative");
+        if (totalTickets != null) {
+            if (totalTickets < 0) {
+                throw new IllegalArgumentException("Total tickets cannot be negative");
+            }
+            // Check against the new maxTicketCapacity if provided
+            if (maxTicketCapacity != null && totalTickets <= maxTicketCapacity) {
+                throw new IllegalArgumentException("Total tickets must exceed maximum capacity");
+            }
+            // Check against current maxTicketCapacity if new one not provided
+            if (maxTicketCapacity == null && totalTickets <= configuration.getMaxTicketCapacity()) {
+                throw new IllegalArgumentException("Total tickets must exceed current maximum capacity");
+            }
         }
+
+        if (maxTicketCapacity != null) {
+            if (maxTicketCapacity < 0) {
+                throw new IllegalArgumentException("Maximum ticket capacity cannot be negative");
+            }
+            // Check against the new totalTickets if provided
+            if (totalTickets != null && totalTickets <= maxTicketCapacity) {
+                throw new IllegalArgumentException("Total tickets must exceed maximum capacity");
+            }
+            // Check against current totalTickets if new one not provided
+            if (totalTickets == null && configuration.getTotalTickets() <= maxTicketCapacity) {
+                throw new IllegalArgumentException("Current total tickets must exceed new maximum capacity");
+            }
+        }
+
         if (ticketReleaseRate != null && ticketReleaseRate < 0) {
             throw new IllegalArgumentException("Ticket release rate cannot be negative");
         }
         if (customerRetrievalRate != null && customerRetrievalRate < 0) {
             throw new IllegalArgumentException("Customer retrieval rate cannot be negative");
         }
-        if (maxTicketCapacity != null && maxTicketCapacity < 0) {
-            throw new IllegalArgumentException("Maximum ticket capacity cannot be negative");
-        }
 
         // Update configuration
+        if (maxTicketCapacity != null) {
+            configuration.setMaxTicketCapacity(maxTicketCapacity);
+            this.ticketPool = new TicketPool(maxTicketCapacity);
+        }
         if (totalTickets != null) {
             configuration.setTotalTickets(totalTickets);
         }
@@ -131,10 +220,8 @@ public class TicketingService {
         if (customerRetrievalRate != null) {
             configuration.setCustomerRetrievalRate(customerRetrievalRate);
         }
-        if (maxTicketCapacity != null) {
-            configuration.setMaxTicketCapacity(maxTicketCapacity);
-            this.ticketPool = new TicketPool(maxTicketCapacity);
-        }
+        
+        addLog("Configuration updated", "system_status");
     }
 
     // Start the ticketing system
@@ -159,6 +246,7 @@ public class TicketingService {
             for (int i = 0; i < configuration.getCustomerRetrievalRate(); i++) {
                 startCustomer();
             }
+            addLog("System started", "system_status");
         }
     }
 
@@ -168,6 +256,7 @@ public class TicketingService {
             systemRunning = false;
             stopVendors();
             stopCustomers();
+            addLog("System stopped", "system_status");
         }
     }
 
@@ -176,6 +265,7 @@ public class TicketingService {
         stopSystem();
         this.ticketPool = new TicketPool(configuration.getMaxTicketCapacity());
         systemRunning = false;
+        addLog("System reset", "system_status");
     }
 
     // Check if the system is running
@@ -188,10 +278,21 @@ public class TicketingService {
         return configuration;
     }
 
+    // Get available tickets
+    public int getAvailableTickets() {
+        return ticketPool.getTicketCount();
+    }
+
+    // Get total tickets processed
+    public int getTotalTickets() {
+        return ticketPool.getTotalTicketsProcessed();
+    }
+
     @PreDestroy
     public void cleanup() {
         System.out.println("Shutting down ticketing service...");
         stopVendors();
         stopCustomers();
+        addLog("System shutdown", "system_status");
     }
 }

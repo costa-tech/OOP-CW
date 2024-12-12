@@ -1,26 +1,25 @@
-import { createElement as e } from 'react';
-import '../styles/ControlPanel.css';
+import React from 'react';
 
 function ControlPanel({ isRunning, onStart, onStop, onReset }) {
-  return e('div', { className: 'control-panel' },
-    e('h2', null, 'System Controls'),
-    e('div', { className: 'system-status' },
-      e('div', { 
+  return React.createElement('div', { className: 'control-panel' },
+    React.createElement('h2', null, 'System Controls'),
+    React.createElement('div', { className: 'system-status' },
+      React.createElement('div', { 
         className: `status-indicator ${isRunning ? 'running' : 'stopped'}` 
       }, `System is ${isRunning ? 'Running' : 'Stopped'}`)
     ),
-    e('div', { className: 'button-group' },
-      e('button', {
+    React.createElement('div', { className: 'button-group' },
+      React.createElement('button', {
         className: 'control-btn start',
         onClick: onStart,
         disabled: isRunning
       }, 'Start System'),
-      e('button', {
+      React.createElement('button', {
         className: 'control-btn stop',
         onClick: onStop,
         disabled: !isRunning
       }, 'Stop System'),
-      e('button', {
+      React.createElement('button', {
         className: 'control-btn reset',
         onClick: onReset,
         disabled: isRunning

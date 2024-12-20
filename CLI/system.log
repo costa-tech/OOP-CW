@@ -1707,3 +1707,5 @@ INFO: Would you like to use this configuration? (yes/no)
 [2024-12-12 06:05:32] Max Pool Capacity: 50
 [2024-12-12 06:05:32] Release Rate: 10
 [2024-12-12 06:05:32] Retrieval Rate: 10
+[2024-12-12 09:44:27] Logger setup complete.
+[2024-12-12 09:44:31] Program exited by the user.
